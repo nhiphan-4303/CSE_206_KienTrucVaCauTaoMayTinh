@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PNHN_Z",
+					"strict" : false
+				},
+				{
+					"name" : "PNHN_X",
+					"strict" : false
+				},
+				{
+					"name" : "PNHN_Y",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,143 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "04/29/2024 20:08:14"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Assignment5b (
+	HANH_NHI_Z,
+	HANH_NHI_A,
+	HANH_NHI_C,
+	HANH_NHI_B,
+	HANH_NHI_D);
+output 	HANH_NHI_Z;
+input 	HANH_NHI_A;
+input 	HANH_NHI_C;
+input 	HANH_NHI_B;
+input 	HANH_NHI_D;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \HANH_NHI_Z~output_o ;
+wire \HANH_NHI_B~input_o ;
+wire \HANH_NHI_A~input_o ;
+wire \HANH_NHI_D~input_o ;
+wire \HANH_NHI_C~input_o ;
+wire \inst6~0_combout ;
+
+
+cyclonev_io_obuf \HANH_NHI_Z~output (
+	.i(\inst6~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HANH_NHI_Z~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HANH_NHI_Z~output .bus_hold = "false";
+defparam \HANH_NHI_Z~output .open_drain_output = "false";
+defparam \HANH_NHI_Z~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HANH_NHI_B~input (
+	.i(HANH_NHI_B),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HANH_NHI_B~input_o ));
+// synopsys translate_off
+defparam \HANH_NHI_B~input .bus_hold = "false";
+defparam \HANH_NHI_B~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HANH_NHI_A~input (
+	.i(HANH_NHI_A),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HANH_NHI_A~input_o ));
+// synopsys translate_off
+defparam \HANH_NHI_A~input .bus_hold = "false";
+defparam \HANH_NHI_A~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HANH_NHI_D~input (
+	.i(HANH_NHI_D),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HANH_NHI_D~input_o ));
+// synopsys translate_off
+defparam \HANH_NHI_D~input .bus_hold = "false";
+defparam \HANH_NHI_D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HANH_NHI_C~input (
+	.i(HANH_NHI_C),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HANH_NHI_C~input_o ));
+// synopsys translate_off
+defparam \HANH_NHI_C~input .bus_hold = "false";
+defparam \HANH_NHI_C~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst6~0 (
+// Equation(s):
+// \inst6~0_combout  = (!\HANH_NHI_B~input_o  & (!\HANH_NHI_A~input_o  & ((!\HANH_NHI_C~input_o ) # (\HANH_NHI_D~input_o )))) # (\HANH_NHI_B~input_o  & ((!\HANH_NHI_A~input_o ) # ((\HANH_NHI_D~input_o ))))
+
+	.dataa(!\HANH_NHI_B~input_o ),
+	.datab(!\HANH_NHI_A~input_o ),
+	.datac(!\HANH_NHI_D~input_o ),
+	.datad(!\HANH_NHI_C~input_o ),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst6~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst6~0 .extended_lut = "off";
+defparam \inst6~0 .lut_mask = 64'hCD4DCD4DCD4DCD4D;
+defparam \inst6~0 .shared_arith = "off";
+// synopsys translate_on
+
+assign HANH_NHI_Z = \HANH_NHI_Z~output_o ;
+
+endmodule

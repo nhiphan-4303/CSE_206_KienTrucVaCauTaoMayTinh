@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/CNTT/Desktop/CSE206_PNHNhi/Assignment1.bdf
+source_file = 1, C:/Users/CNTT/Desktop/CSE206_PNHNhi/Waveform.vwf
+source_file = 1, C:/Users/CNTT/Desktop/CSE206_PNHNhi/Waveform1.vwf
+source_file = 1, C:/Users/CNTT/Desktop/CSE206_PNHNhi/Assignment1_Verilog.v
+source_file = 1, C:/Users/CNTT/Desktop/CSE206_PNHNhi/Waveform2.vwf
+source_file = 1, C:/Users/CNTT/Desktop/CSE206_PNHNhi/db/Assignment1.cbx.xml
+design_name = Assignment1_Verilog
+instance = comp, \Z~output , Z~output, Assignment1_Verilog, 1
+instance = comp, \Y~input , Y~input, Assignment1_Verilog, 1
+instance = comp, \X~input , X~input, Assignment1_Verilog, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Assignment1_Verilog, 1

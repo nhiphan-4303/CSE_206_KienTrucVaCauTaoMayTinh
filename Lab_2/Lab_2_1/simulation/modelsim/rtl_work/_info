@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/simulation/modelsim
+vVerilog1
+!s110 1713858826
+!i10b 1
+!s100 b<C5k01CBb80lhQ^Z@XBL1
+ICVQTh[K9oNSVaW]K9?VJQ0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713856988
+8C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog1.v
+FC:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog1.v
+L0 2
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1713858826.000000
+!s107 C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1|C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog1.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1
+Z5 tCvgOpt 0
+n@verilog1
+vVerilog2
+!s110 1713858827
+!i10b 1
+!s100 i1Q;KH?1UE3KFD0;[Dz`A0
+I]702`U9ZU_ZMm@^FbhJdG3
+R1
+R0
+w1713858418
+8C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog2.v
+FC:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog2.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1713858827.000000
+!s107 C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1|C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/Verilog2.v|
+!i113 1
+R3
+R4
+R5
+n@verilog2

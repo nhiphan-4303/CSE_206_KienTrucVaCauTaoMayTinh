@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/CNTT/Desktop/CSE_206_PNHNhi/Lab_1_3/Assignment3.bdf
+source_file = 1, C:/Users/CNTT/Desktop/CSE_206_PNHNhi/Lab_1_3/db/Assignment3.cbx.xml
+design_name = Assignment3
+instance = comp, \PNHN_Z~output , PNHN_Z~output, Assignment3, 1
+instance = comp, \PNHN_X~input , PNHN_X~input, Assignment3, 1
+instance = comp, \PNHN_Y~input , PNHN_Y~input, Assignment3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Assignment3, 1

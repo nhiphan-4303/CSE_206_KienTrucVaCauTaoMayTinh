@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_1/simulation/qsim
+vAssignment1
+Z1 !s110 1713854995
+!i10b 1
+!s100 0Ze?RfXd75FB=knJEcIW[3
+I<]ZP2?>;f]N=R[Xa2^E[N2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713854994
+Z3 8Assignment1.vo
+Z4 FAssignment1.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1713854995.000000
+Z8 !s107 Assignment1.vo|
+Z9 !s90 -work|work|Assignment1.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@assignment1
+vAssignment1_vlg_vec_tst
+R1
+!i10b 1
+!s100 H^0eN?034J:>?7Hb720Yc2
+I`RlP`TGTi3[VPUURUf_Kn1
+R2
+R0
+w1713854993
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z12 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@assignment1_vlg_vec_tst
+vVerilog1
+Z13 !s110 1713857184
+!i10b 1
+!s100 _aU[1@TKmI;N>dTc<i__22
+IFMDi<MLco<UA[kbW6_7K?3
+R2
+R0
+w1713857183
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1713857184.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@verilog1
+vVerilog1_vlg_vec_tst
+R13
+!i10b 1
+!s100 U_GTbNLSj0Kj1?hg1_Ac72
+Ibgi`X<@Lk0^e;EG47aM712
+R2
+R0
+w1713857182
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@verilog1_vlg_vec_tst

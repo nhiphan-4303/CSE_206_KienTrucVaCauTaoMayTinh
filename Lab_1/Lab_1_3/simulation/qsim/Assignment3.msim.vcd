@@ -1,0 +1,70 @@
+$comment
+	File created using the following command:
+		vcd file Assignment3.msim.vcd -direction
+$end
+$date
+	Tue Apr 16 15:18:41 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Assignment3_vlg_vec_tst $end
+$var reg 1 ! PNHN_X $end
+$var reg 1 " PNHN_Y $end
+$var wire 1 # PNHN_Z $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + PNHN_X~input_o $end
+$var wire 1 , PNHN_Y~input_o $end
+$var wire 1 - inst~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+$end
+#40000
+1"
+1,
+#80000
+1!
+0"
+1+
+0,
+#120000
+1"
+1,
+1-
+0#
+#160000
+0!
+0"
+0+
+0,
+0-
+1#
+#200000

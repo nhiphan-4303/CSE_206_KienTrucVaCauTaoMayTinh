@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_5_b/Assignment5b.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_5_b/Waveform.vwf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_5_b/db/Assignment5b.cbx.xml
+design_name = Assignment5b
+instance = comp, \HANH_NHI_Z~output , HANH_NHI_Z~output, Assignment5b, 1
+instance = comp, \HANH_NHI_B~input , HANH_NHI_B~input, Assignment5b, 1
+instance = comp, \HANH_NHI_A~input , HANH_NHI_A~input, Assignment5b, 1
+instance = comp, \HANH_NHI_D~input , HANH_NHI_D~input, Assignment5b, 1
+instance = comp, \HANH_NHI_C~input , HANH_NHI_C~input, Assignment5b, 1
+instance = comp, \inst6~0 , inst6~0, Assignment5b, 1

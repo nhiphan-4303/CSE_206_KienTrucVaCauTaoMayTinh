@@ -1,0 +1,148 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "04/16/2024 15:53:54"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Assignment7 (
+	PNHN_Z,
+	PNHN_X,
+	PNHN_Y);
+output 	PNHN_Z;
+input 	PNHN_X;
+input 	PNHN_Y;
+
+// Design Ports Information
+// PNHN_Z	=>  Location: PIN_R16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// PNHN_X	=>  Location: PIN_P22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// PNHN_Y	=>  Location: PIN_R21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \PNHN_Y~input_o ;
+wire \PNHN_X~input_o ;
+wire \inst~combout ;
+
+
+// Location: IOOBUF_X89_Y8_N5
+cyclonev_io_obuf \PNHN_Z~output (
+	.i(!\inst~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(PNHN_Z),
+	.obar());
+// synopsys translate_off
+defparam \PNHN_Z~output .bus_hold = "false";
+defparam \PNHN_Z~output .open_drain_output = "false";
+defparam \PNHN_Z~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N38
+cyclonev_io_ibuf \PNHN_Y~input (
+	.i(PNHN_Y),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\PNHN_Y~input_o ));
+// synopsys translate_off
+defparam \PNHN_Y~input .bus_hold = "false";
+defparam \PNHN_Y~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N55
+cyclonev_io_ibuf \PNHN_X~input (
+	.i(PNHN_X),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\PNHN_X~input_o ));
+// synopsys translate_off
+defparam \PNHN_X~input .bus_hold = "false";
+defparam \PNHN_X~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y8_N0
+cyclonev_lcell_comb inst(
+// Equation(s):
+// \inst~combout  = ( \PNHN_X~input_o  & ( !\PNHN_Y~input_o  ) ) # ( !\PNHN_X~input_o  & ( \PNHN_Y~input_o  ) )
+
+	.dataa(gnd),
+	.datab(!\PNHN_Y~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(!\PNHN_X~input_o ),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst.extended_lut = "off";
+defparam inst.lut_mask = 64'h3333CCCC3333CCCC;
+defparam inst.shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X64_Y15_N3
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

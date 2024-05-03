@@ -1,0 +1,6 @@
+|Assignment2b
+HANH_NHI_Z <= inst.DB_MAX_OUTPUT_PORT_TYPE
+HANH_NHI_C => inst.IN0
+HANH_NHI_B => inst.IN1
+
+

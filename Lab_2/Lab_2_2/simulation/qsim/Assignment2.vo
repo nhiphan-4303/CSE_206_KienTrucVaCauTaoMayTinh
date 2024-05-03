@@ -1,0 +1,148 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "04/23/2024 15:42:03"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Assignment2 (
+	Nhi_AB,
+	Nhi_A,
+	Nhi_B);
+output 	Nhi_AB;
+input 	Nhi_A;
+input 	Nhi_B;
+
+// Design Ports Information
+// Nhi_AB	=>  Location: PIN_R16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Nhi_A	=>  Location: PIN_P22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Nhi_B	=>  Location: PIN_R21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \Nhi_B~input_o ;
+wire \Nhi_A~input_o ;
+wire \inst~combout ;
+
+
+// Location: IOOBUF_X89_Y8_N5
+cyclonev_io_obuf \Nhi_AB~output (
+	.i(\inst~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(Nhi_AB),
+	.obar());
+// synopsys translate_off
+defparam \Nhi_AB~output .bus_hold = "false";
+defparam \Nhi_AB~output .open_drain_output = "false";
+defparam \Nhi_AB~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N38
+cyclonev_io_ibuf \Nhi_B~input (
+	.i(Nhi_B),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\Nhi_B~input_o ));
+// synopsys translate_off
+defparam \Nhi_B~input .bus_hold = "false";
+defparam \Nhi_B~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N55
+cyclonev_io_ibuf \Nhi_A~input (
+	.i(Nhi_A),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\Nhi_A~input_o ));
+// synopsys translate_off
+defparam \Nhi_A~input .bus_hold = "false";
+defparam \Nhi_A~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y8_N0
+cyclonev_lcell_comb inst(
+// Equation(s):
+// \inst~combout  = ( \Nhi_A~input_o  & ( \Nhi_B~input_o  ) )
+
+	.dataa(gnd),
+	.datab(!\Nhi_B~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(!\Nhi_A~input_o ),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst.extended_lut = "off";
+defparam inst.lut_mask = 64'h0000333300003333;
+defparam inst.shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X64_Y15_N3
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

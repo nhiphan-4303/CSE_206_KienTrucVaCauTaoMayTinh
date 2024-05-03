@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HANH_NHI_Z",
+					"strict" : false
+				},
+				{
+					"name" : "HANH_NHI_A",
+					"strict" : false
+				},
+				{
+					"name" : "HANH_NHI_B",
+					"strict" : false
+				},
+				{
+					"name" : "HANH_NHI_C",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

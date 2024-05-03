@@ -1,0 +1,6 @@
+|Assignment6
+PNHN_Z <= inst.DB_MAX_OUTPUT_PORT_TYPE
+PNHN_X => inst.IN0
+PNHN_Y => inst.IN1
+
+

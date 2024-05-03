@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/CNTT/Desktop/CSE_206_PNHNhi/Lab_1_3/simulation/qsim
+vAssignment3
+Z1 !s110 1713255521
+!i10b 1
+!s100 7XV[V<:a>WXXjNHPC`cLM1
+IgEf2]lP:`>lMGN>hF?75L0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713255519
+8Assignment3.vo
+FAssignment3.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1713255520.000000
+!s107 Assignment3.vo|
+!s90 -work|work|Assignment3.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@assignment3
+vAssignment3_vlg_vec_tst
+R1
+!i10b 1
+!s100 Z5kZF`Mf^kQ`HafTPR?fK0
+IbPeP[CiF3UeY25_^olbmc1
+R2
+R0
+w1713255518
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1713255521.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5
+n@assignment3_vlg_vec_tst

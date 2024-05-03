@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_5/Assignment5.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_2/Lab_2_5/db/Assignment5.cbx.xml
+design_name = Assignment5
+instance = comp, \HANH_NHI_Z~output , HANH_NHI_Z~output, Assignment5, 1
+instance = comp, \HANH_NHI_C~input , HANH_NHI_C~input, Assignment5, 1
+instance = comp, \HANH_NHI_D~input , HANH_NHI_D~input, Assignment5, 1
+instance = comp, \HANH_NHI_B~input , HANH_NHI_B~input, Assignment5, 1
+instance = comp, \HANH_NHI_A~input , HANH_NHI_A~input, Assignment5, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Assignment5, 1
