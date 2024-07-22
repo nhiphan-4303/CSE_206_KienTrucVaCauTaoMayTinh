@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'HNhi_CLOCK'
+Slack : -0.724
+TNS   : -22.313
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'HNhi_CLOCK'
+Slack : -0.724
+TNS   : -22.301
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'HNhi_CLOCK'
+Slack : -0.089
+TNS   : -1.693
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'HNhi_CLOCK'
+Slack : -0.090
+TNS   : -1.716
+
+------------------------------------------------------------

@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HanhNhi_RNS",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_YNS",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_GNS",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_REW",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_YEW",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_GEW",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_B",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_C",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

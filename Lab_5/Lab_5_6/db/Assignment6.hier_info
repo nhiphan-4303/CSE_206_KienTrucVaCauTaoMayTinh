@@ -1,0 +1,36 @@
+|Assignment6
+HanhNhi_D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[4] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[5] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[6] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_D[7] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+CLEAR => inst8.IN0
+HanhNhi_A[0] => inst.DATAIN
+HanhNhi_A[1] => inst1.DATAIN
+HanhNhi_A[2] => inst2.DATAIN
+HanhNhi_A[3] => inst3.DATAIN
+HanhNhi_A[4] => inst4.DATAIN
+HanhNhi_A[5] => inst5.DATAIN
+HanhNhi_A[6] => inst6.DATAIN
+HanhNhi_A[7] => inst7.DATAIN
+CLOCK => inst.CLK
+CLOCK => inst1.CLK
+CLOCK => inst2.CLK
+CLOCK => inst3.CLK
+CLOCK => inst4.CLK
+CLOCK => inst5.CLK
+CLOCK => inst6.CLK
+CLOCK => inst7.CLK
+WREN => inst.ENA
+WREN => inst1.ENA
+WREN => inst2.ENA
+WREN => inst3.ENA
+WREN => inst4.ENA
+WREN => inst5.ENA
+WREN => inst6.ENA
+WREN => inst7.ENA
+
+

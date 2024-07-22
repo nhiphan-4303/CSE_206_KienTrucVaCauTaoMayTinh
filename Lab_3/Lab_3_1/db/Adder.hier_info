@@ -1,0 +1,60 @@
+|ripple_carry_adder_4
+HanhNhi_S0 <= full_adder:inst3.HanhNhi_S
+HanhNhi_A0 => full_adder:inst3.HanhNhi_X
+HanhNhi_B0 => full_adder:inst3.HanhNhi_Y
+HanhNhi_S1 <= full_adder:inst2.HanhNhi_S
+HanhNhi_A1 => full_adder:inst2.HanhNhi_X
+HanhNhi_B1 => full_adder:inst2.HanhNhi_Y
+HanhNhi_S2 <= full_adder:inst1.HanhNhi_S
+HanhNhi_A2 => full_adder:inst1.HanhNhi_X
+HanhNhi_B2 => full_adder:inst1.HanhNhi_Y
+HanhNhi_S3 <= full_adder:inst.HanhNhi_S
+HanhNhi_A3 => full_adder:inst.HanhNhi_X
+HanhNhi_B3 => full_adder:inst.HanhNhi_Y
+HanhNhi_C4 <= full_adder:inst.HanhNhi_C
+
+
+|ripple_carry_adder_4|full_adder:inst3
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst2.IN0
+HanhNhi_X => inst1.IN0
+HanhNhi_Y => inst2.IN1
+HanhNhi_Y => inst1.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_4|full_adder:inst2
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst2.IN0
+HanhNhi_X => inst1.IN0
+HanhNhi_Y => inst2.IN1
+HanhNhi_Y => inst1.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_4|full_adder:inst1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst2.IN0
+HanhNhi_X => inst1.IN0
+HanhNhi_Y => inst2.IN1
+HanhNhi_Y => inst1.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_4|full_adder:inst
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst2.IN0
+HanhNhi_X => inst1.IN0
+HanhNhi_Y => inst2.IN1
+HanhNhi_Y => inst1.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

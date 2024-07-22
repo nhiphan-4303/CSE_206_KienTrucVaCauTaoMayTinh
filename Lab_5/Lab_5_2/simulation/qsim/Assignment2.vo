@@ -1,0 +1,485 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "05/21/2024 19:36:03"
+
+// 
+// Device: Altera 10M08DAF484C8G Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Assignment2 (
+	HanhNhi_q,
+	HanhNhi_wren,
+	HanhNhi_Clock,
+	HanhNhi_address,
+	HanhNhi_data);
+output 	[3:0] HanhNhi_q;
+input 	HanhNhi_wren;
+input 	HanhNhi_Clock;
+input 	[4:0] HanhNhi_address;
+input 	[3:0] HanhNhi_data;
+
+// Design Ports Information
+// HanhNhi_q[3]	=>  Location: PIN_B5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_q[2]	=>  Location: PIN_D1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_q[1]	=>  Location: PIN_B4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_q[0]	=>  Location: PIN_C4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_wren	=>  Location: PIN_Y4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_Clock	=>  Location: PIN_M8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_data[3]	=>  Location: PIN_C5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_address[0]	=>  Location: PIN_E8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_address[1]	=>  Location: PIN_L2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_address[2]	=>  Location: PIN_P5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_address[3]	=>  Location: PIN_N4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_address[4]	=>  Location: PIN_L8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_data[2]	=>  Location: PIN_F7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_data[1]	=>  Location: PIN_P4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// HanhNhi_data[0]	=>  Location: PIN_D5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \~QUARTUS_CREATED_UNVM~~busy ;
+wire \~QUARTUS_CREATED_ADC1~~eoc ;
+wire \HanhNhi_q[3]~output_o ;
+wire \HanhNhi_q[2]~output_o ;
+wire \HanhNhi_q[1]~output_o ;
+wire \HanhNhi_q[0]~output_o ;
+wire \HanhNhi_wren~input_o ;
+wire \HanhNhi_Clock~input_o ;
+wire \HanhNhi_Clock~inputclkctrl_outclk ;
+wire \HanhNhi_data[0]~input_o ;
+wire \HanhNhi_address[0]~input_o ;
+wire \HanhNhi_address[1]~input_o ;
+wire \HanhNhi_address[2]~input_o ;
+wire \HanhNhi_address[3]~input_o ;
+wire \HanhNhi_address[4]~input_o ;
+wire \HanhNhi_data[1]~input_o ;
+wire \HanhNhi_data[2]~input_o ;
+wire \HanhNhi_data[3]~input_o ;
+wire [3:0] \inst|altsyncram_component|auto_generated|q_a ;
+
+wire [17:0] \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus ;
+
+assign \inst|altsyncram_component|auto_generated|q_a [0] = \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [0];
+assign \inst|altsyncram_component|auto_generated|q_a [1] = \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [1];
+assign \inst|altsyncram_component|auto_generated|q_a [2] = \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [2];
+assign \inst|altsyncram_component|auto_generated|q_a [3] = \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [3];
+
+hard_block auto_generated_inst(
+	.devpor(devpor),
+	.devclrn(devclrn),
+	.devoe(devoe));
+
+// Location: LCCOMB_X11_Y13_N16
+fiftyfivenm_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+// \~QUARTUS_CREATED_GND~I_combout  = GND
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.cout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 16'h0000;
+defparam \~QUARTUS_CREATED_GND~I .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOOBUF_X6_Y10_N9
+fiftyfivenm_io_obuf \HanhNhi_q[3]~output (
+	.i(\inst|altsyncram_component|auto_generated|q_a [3]),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_q[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_q[3]~output .bus_hold = "false";
+defparam \HanhNhi_q[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X10_Y17_N9
+fiftyfivenm_io_obuf \HanhNhi_q[2]~output (
+	.i(\inst|altsyncram_component|auto_generated|q_a [2]),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_q[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_q[2]~output .bus_hold = "false";
+defparam \HanhNhi_q[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X6_Y10_N2
+fiftyfivenm_io_obuf \HanhNhi_q[1]~output (
+	.i(\inst|altsyncram_component|auto_generated|q_a [1]),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_q[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_q[1]~output .bus_hold = "false";
+defparam \HanhNhi_q[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X6_Y10_N16
+fiftyfivenm_io_obuf \HanhNhi_q[0]~output (
+	.i(\inst|altsyncram_component|auto_generated|q_a [0]),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_q[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_q[0]~output .bus_hold = "false";
+defparam \HanhNhi_q[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X9_Y0_N8
+fiftyfivenm_io_ibuf \HanhNhi_wren~input (
+	.i(HanhNhi_wren),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_wren~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_wren~input .bus_hold = "false";
+defparam \HanhNhi_wren~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_wren~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y6_N15
+fiftyfivenm_io_ibuf \HanhNhi_Clock~input (
+	.i(HanhNhi_Clock),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_Clock~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_Clock~input .bus_hold = "false";
+defparam \HanhNhi_Clock~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_Clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G3
+fiftyfivenm_clkctrl \HanhNhi_Clock~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\HanhNhi_Clock~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\HanhNhi_Clock~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \HanhNhi_Clock~inputclkctrl .clock_type = "global clock";
+defparam \HanhNhi_Clock~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: IOIBUF_X3_Y10_N8
+fiftyfivenm_io_ibuf \HanhNhi_data[0]~input (
+	.i(HanhNhi_data[0]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_data[0]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_data[0]~input .bus_hold = "false";
+defparam \HanhNhi_data[0]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_data[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X6_Y10_N22
+fiftyfivenm_io_ibuf \HanhNhi_address[0]~input (
+	.i(HanhNhi_address[0]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_address[0]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_address[0]~input .bus_hold = "false";
+defparam \HanhNhi_address[0]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_address[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X10_Y16_N8
+fiftyfivenm_io_ibuf \HanhNhi_address[1]~input (
+	.i(HanhNhi_address[1]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_address[1]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_address[1]~input .bus_hold = "false";
+defparam \HanhNhi_address[1]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_address[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y7_N8
+fiftyfivenm_io_ibuf \HanhNhi_address[2]~input (
+	.i(HanhNhi_address[2]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_address[2]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_address[2]~input .bus_hold = "false";
+defparam \HanhNhi_address[2]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_address[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y7_N15
+fiftyfivenm_io_ibuf \HanhNhi_address[3]~input (
+	.i(HanhNhi_address[3]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_address[3]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_address[3]~input .bus_hold = "false";
+defparam \HanhNhi_address[3]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_address[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X10_Y15_N15
+fiftyfivenm_io_ibuf \HanhNhi_address[4]~input (
+	.i(HanhNhi_address[4]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_address[4]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_address[4]~input .bus_hold = "false";
+defparam \HanhNhi_address[4]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_address[4]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y7_N1
+fiftyfivenm_io_ibuf \HanhNhi_data[1]~input (
+	.i(HanhNhi_data[1]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_data[1]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_data[1]~input .bus_hold = "false";
+defparam \HanhNhi_data[1]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_data[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X6_Y10_N29
+fiftyfivenm_io_ibuf \HanhNhi_data[2]~input (
+	.i(HanhNhi_data[2]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_data[2]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_data[2]~input .bus_hold = "false";
+defparam \HanhNhi_data[2]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_data[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X3_Y10_N1
+fiftyfivenm_io_ibuf \HanhNhi_data[3]~input (
+	.i(HanhNhi_data[3]),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\HanhNhi_data[3]~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_data[3]~input .bus_hold = "false";
+defparam \HanhNhi_data[3]~input .listen_to_nsleep_signal = "false";
+defparam \HanhNhi_data[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: M9K_X8_Y7_N0
+fiftyfivenm_ram_block \inst|altsyncram_component|auto_generated|ram_block1a0 (
+	.portawe(\HanhNhi_wren~input_o ),
+	.portare(vcc),
+	.portaaddrstall(gnd),
+	.portbwe(gnd),
+	.portbre(vcc),
+	.portbaddrstall(gnd),
+	.clk0(\HanhNhi_Clock~inputclkctrl_outclk ),
+	.clk1(gnd),
+	.ena0(vcc),
+	.ena1(vcc),
+	.ena2(vcc),
+	.ena3(vcc),
+	.clr0(gnd),
+	.clr1(gnd),
+	.portadatain({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,\HanhNhi_data[3]~input_o ,\HanhNhi_data[2]~input_o ,\HanhNhi_data[1]~input_o ,\HanhNhi_data[0]~input_o }),
+	.portaaddr({\HanhNhi_address[4]~input_o ,\HanhNhi_address[3]~input_o ,\HanhNhi_address[2]~input_o ,\HanhNhi_address[1]~input_o ,\HanhNhi_address[0]~input_o }),
+	.portabyteenamasks(1'b1),
+	.portbdatain(18'b000000000000000000),
+	.portbaddr(5'b00000),
+	.portbbyteenamasks(1'b1),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.portadataout(\inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus ),
+	.portbdataout());
+// synopsys translate_off
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .data_interleave_offset_in_bits = 1;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .data_interleave_width_in_bits = 1;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .init_file = "Assignment2.mif";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .init_file_layout = "port_a";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .logical_ram_name = "RAM32_:inst|altsyncram:altsyncram_component|altsyncram_i8h1:auto_generated|ALTSYNCRAM";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .operation_mode = "single_port";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_address_clear = "none";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_address_width = 5;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_byte_enable_clock = "none";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_data_out_clear = "none";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_data_out_clock = "clock0";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_data_width = 18;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_first_address = 0;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_first_bit_number = 0;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_last_address = 31;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_logical_ram_depth = 32;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_logical_ram_width = 4;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_a_read_during_write_mode = "new_data_with_nbe_read";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_b_address_width = 5;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .port_b_data_width = 18;
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .ram_block_type = "M9K";
+defparam \inst|altsyncram_component|auto_generated|ram_block1a0 .mem_init0 = 576'h0000000000000000000000000000000000000003C000F0003C000F0003C000F0003C000F0003C000F0003C000F0003C000F00000000000000000000000000A000240003000080001;
+// synopsys translate_on
+
+// Location: UNVM_X0_Y11_N40
+fiftyfivenm_unvm \~QUARTUS_CREATED_UNVM~ (
+	.arclk(vcc),
+	.arshft(vcc),
+	.drclk(vcc),
+	.drshft(vcc),
+	.drdin(vcc),
+	.nprogram(vcc),
+	.nerase(vcc),
+	.nosc_ena(\~QUARTUS_CREATED_GND~I_combout ),
+	.par_en(vcc),
+	.xe_ye(\~QUARTUS_CREATED_GND~I_combout ),
+	.se(\~QUARTUS_CREATED_GND~I_combout ),
+	.ardin(23'b11111111111111111111111),
+	.busy(\~QUARTUS_CREATED_UNVM~~busy ),
+	.osc(),
+	.bgpbusy(),
+	.sp_pass(),
+	.se_pass(),
+	.drdout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_UNVM~ .addr_range1_end_addr = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .addr_range1_offset = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .addr_range2_end_addr = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .addr_range2_offset = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .addr_range3_offset = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .is_compressed_image = "false";
+defparam \~QUARTUS_CREATED_UNVM~ .is_dual_boot = "false";
+defparam \~QUARTUS_CREATED_UNVM~ .is_eram_skip = "false";
+defparam \~QUARTUS_CREATED_UNVM~ .max_ufm_valid_addr = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .max_valid_addr = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .min_ufm_valid_addr = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .min_valid_addr = -1;
+defparam \~QUARTUS_CREATED_UNVM~ .part_name = "quartus_created_unvm";
+defparam \~QUARTUS_CREATED_UNVM~ .reserve_block = "true";
+// synopsys translate_on
+
+// Location: ADCBLOCK_X10_Y24_N0
+fiftyfivenm_adcblock \~QUARTUS_CREATED_ADC1~ (
+	.soc(\~QUARTUS_CREATED_GND~I_combout ),
+	.usr_pwd(vcc),
+	.tsen(\~QUARTUS_CREATED_GND~I_combout ),
+	.clkin_from_pll_c0(gnd),
+	.chsel({\~QUARTUS_CREATED_GND~I_combout ,\~QUARTUS_CREATED_GND~I_combout ,\~QUARTUS_CREATED_GND~I_combout ,\~QUARTUS_CREATED_GND~I_combout ,\~QUARTUS_CREATED_GND~I_combout }),
+	.eoc(\~QUARTUS_CREATED_ADC1~~eoc ),
+	.dout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_ADC1~ .analog_input_pin_mask = 0;
+defparam \~QUARTUS_CREATED_ADC1~ .clkdiv = 1;
+defparam \~QUARTUS_CREATED_ADC1~ .device_partname_fivechar_prefix = "none";
+defparam \~QUARTUS_CREATED_ADC1~ .is_this_first_or_second_adc = 1;
+defparam \~QUARTUS_CREATED_ADC1~ .prescalar = 0;
+defparam \~QUARTUS_CREATED_ADC1~ .pwd = 1;
+defparam \~QUARTUS_CREATED_ADC1~ .refsel = 0;
+defparam \~QUARTUS_CREATED_ADC1~ .reserve_block = "true";
+defparam \~QUARTUS_CREATED_ADC1~ .testbits = 66;
+defparam \~QUARTUS_CREATED_ADC1~ .tsclkdiv = 1;
+defparam \~QUARTUS_CREATED_ADC1~ .tsclksel = 0;
+// synopsys translate_on
+
+assign HanhNhi_q[3] = \HanhNhi_q[3]~output_o ;
+
+assign HanhNhi_q[2] = \HanhNhi_q[2]~output_o ;
+
+assign HanhNhi_q[1] = \HanhNhi_q[1]~output_o ;
+
+assign HanhNhi_q[0] = \HanhNhi_q[0]~output_o ;
+
+endmodule
+
+module hard_block (
+
+	devpor,
+	devclrn,
+	devoe);
+
+// Design Ports Information
+// ~ALTERA_TMS~	=>  Location: PIN_H2,	 I/O Standard: 2.5 V Schmitt Trigger,	 Current Strength: Default
+// ~ALTERA_TCK~	=>  Location: PIN_G2,	 I/O Standard: 2.5 V Schmitt Trigger,	 Current Strength: Default
+// ~ALTERA_TDI~	=>  Location: PIN_L4,	 I/O Standard: 2.5 V Schmitt Trigger,	 Current Strength: Default
+// ~ALTERA_TDO~	=>  Location: PIN_M5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_CONFIG_SEL~	=>  Location: PIN_H10,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_nCONFIG~	=>  Location: PIN_H9,	 I/O Standard: 2.5 V Schmitt Trigger,	 Current Strength: Default
+// ~ALTERA_nSTATUS~	=>  Location: PIN_G9,	 I/O Standard: 2.5 V Schmitt Trigger,	 Current Strength: Default
+// ~ALTERA_CONF_DONE~	=>  Location: PIN_F8,	 I/O Standard: 2.5 V Schmitt Trigger,	 Current Strength: Default
+
+input 	devpor;
+input 	devclrn;
+input 	devoe;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+wire \~ALTERA_TMS~~padout ;
+wire \~ALTERA_TCK~~padout ;
+wire \~ALTERA_TDI~~padout ;
+wire \~ALTERA_CONFIG_SEL~~padout ;
+wire \~ALTERA_nCONFIG~~padout ;
+wire \~ALTERA_nSTATUS~~padout ;
+wire \~ALTERA_CONF_DONE~~padout ;
+wire \~ALTERA_TMS~~ibuf_o ;
+wire \~ALTERA_TCK~~ibuf_o ;
+wire \~ALTERA_TDI~~ibuf_o ;
+wire \~ALTERA_CONFIG_SEL~~ibuf_o ;
+wire \~ALTERA_nCONFIG~~ibuf_o ;
+wire \~ALTERA_nSTATUS~~ibuf_o ;
+wire \~ALTERA_CONF_DONE~~ibuf_o ;
+
+
+endmodule

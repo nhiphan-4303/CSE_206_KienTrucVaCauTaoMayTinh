@@ -1,0 +1,208 @@
+$comment
+	File created using the following command:
+		vcd file Assignment3.msim.vcd -direction
+$end
+$date
+	Wed May 15 17:39:04 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Assignment3_vlg_vec_tst $end
+$var reg 1 ! HanhNhi_A $end
+$var reg 1 " HanhNhi_B $end
+$var reg 1 # HanhNhi_C $end
+$var reg 1 $ HanhNhi_D $end
+$var wire 1 % HanhNhi_W $end
+$var wire 1 & HanhNhi_X $end
+$var wire 1 ' HanhNhi_Y $end
+$var wire 1 ( HanhNhi_Z $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / HanhNhi_X~output_o $end
+$var wire 1 0 HanhNhi_Y~output_o $end
+$var wire 1 1 HanhNhi_Z~output_o $end
+$var wire 1 2 HanhNhi_W~output_o $end
+$var wire 1 3 HanhNhi_A~input_o $end
+$var wire 1 4 HanhNhi_B~input_o $end
+$var wire 1 5 HanhNhi_C~input_o $end
+$var wire 1 6 inst32~combout $end
+$var wire 1 7 inst6666~0_combout $end
+$var wire 1 8 HanhNhi_D~input_o $end
+$var wire 1 9 inst12~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+$end
+#10000
+1$
+18
+19
+12
+1%
+#20000
+1#
+0$
+15
+08
+17
+11
+1(
+#30000
+1$
+18
+09
+02
+0%
+#40000
+1"
+0#
+0$
+14
+05
+08
+19
+16
+10
+12
+1%
+1'
+#50000
+1$
+18
+09
+02
+0%
+#60000
+1#
+0$
+15
+08
+07
+01
+0(
+#70000
+1$
+18
+19
+12
+1%
+#80000
+1!
+0"
+0#
+0$
+04
+05
+08
+13
+1/
+1&
+17
+11
+1(
+#90000
+1$
+18
+#100000
+1#
+0$
+15
+08
+#110000
+1$
+18
+#120000
+1"
+0#
+0$
+14
+05
+08
+09
+07
+06
+00
+01
+02
+0%
+0(
+0'
+#130000
+1$
+18
+19
+12
+1%
+#140000
+1#
+0$
+15
+08
+17
+16
+10
+11
+1(
+1'
+#150000
+1$
+18
+#160000
+0!
+0"
+0#
+0$
+04
+05
+08
+03
+0/
+0&
+09
+07
+06
+00
+01
+02
+0%
+0(
+0'
+#180000

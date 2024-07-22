@@ -1,0 +1,12 @@
+|Assignment1
+HanhNhi_A <= DFFA.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_Reset => inst3.IN0
+HanhNhi_Clock => DFFA.CLK
+HanhNhi_Clock => DFFB.CLK
+HanhNhi_Y => inst1.IN0
+HanhNhi_Y => inst2.IN0
+HanhNhi_Y => inst.IN1
+HanhNhi_Z <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_B <= DFFB.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HNhi_Offset[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Offset[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_OperationCode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_OperationCode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_OperationCode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_RegC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_CLEAR",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_WREN",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[22]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[21]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[20]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[18]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[17]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[16]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[14]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[13]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[12]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[10]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[8]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

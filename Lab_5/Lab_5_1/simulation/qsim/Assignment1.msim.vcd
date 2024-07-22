@@ -1,0 +1,151 @@
+$comment
+	File created using the following command:
+		vcd file Assignment1.msim.vcd -direction
+$end
+$date
+	Tue May 21 15:12:34 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Assignment1_vlg_vec_tst $end
+$var reg 2 ! HanhNhi_A [1:0] $end
+$var reg 1 " HanhNhi_EN $end
+$var wire 1 # HanhNhi_D [3] $end
+$var wire 1 $ HanhNhi_D [2] $end
+$var wire 1 % HanhNhi_D [1] $end
+$var wire 1 & HanhNhi_D [0] $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - HanhNhi_D[3]~output_o $end
+$var wire 1 . HanhNhi_D[2]~output_o $end
+$var wire 1 / HanhNhi_D[1]~output_o $end
+$var wire 1 0 HanhNhi_D[0]~output_o $end
+$var wire 1 1 HanhNhi_A[0]~input_o $end
+$var wire 1 2 HanhNhi_A[1]~input_o $end
+$var wire 1 3 HanhNhi_EN~input_o $end
+$var wire 1 4 inst5~combout $end
+$var wire 1 5 inst4~combout $end
+$var wire 1 6 inst3~combout $end
+$var wire 1 7 inst2~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1"
+1&
+0%
+0$
+0#
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+10
+01
+02
+13
+04
+05
+06
+17
+$end
+#20000
+b1 !
+11
+07
+16
+1/
+00
+0&
+1%
+#40000
+b11 !
+b10 !
+01
+12
+06
+15
+1.
+0/
+0%
+1$
+#60000
+b11 !
+11
+05
+14
+1-
+0.
+0$
+1#
+#80000
+b1 !
+b0 !
+01
+02
+17
+04
+0-
+10
+1&
+0#
+#100000
+0"
+b1 !
+03
+11
+07
+00
+0&
+#120000
+b11 !
+b10 !
+01
+12
+#140000
+1"
+b11 !
+13
+11
+14
+1-
+1#
+#160000
+b1 !
+b0 !
+01
+02
+17
+04
+0-
+10
+1&
+0#
+#180000
+b1 !
+11
+07
+16
+1/
+00
+0&
+1%
+#200000

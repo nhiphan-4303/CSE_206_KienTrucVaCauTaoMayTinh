@@ -1,0 +1,53 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'HanhNhi_Clock'
+Slack : -0.358
+TNS   : -0.358
+
+Type  : Slow 1100mV 85C Model Hold 'HanhNhi_Clock'
+Slack : 0.536
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'HanhNhi_Clock'
+Slack : -0.724
+TNS   : -2.215
+
+Type  : Slow 1100mV 0C Model Setup 'HanhNhi_Clock'
+Slack : -0.448
+TNS   : -0.448
+
+Type  : Slow 1100mV 0C Model Hold 'HanhNhi_Clock'
+Slack : 0.516
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'HanhNhi_Clock'
+Slack : -0.724
+TNS   : -2.260
+
+Type  : Fast 1100mV 85C Model Setup 'HanhNhi_Clock'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'HanhNhi_Clock'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'HanhNhi_Clock'
+Slack : -0.079
+TNS   : -0.157
+
+Type  : Fast 1100mV 0C Model Setup 'HanhNhi_Clock'
+Slack : 0.474
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'HanhNhi_Clock'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'HanhNhi_Clock'
+Slack : -0.080
+TNS   : -0.158
+
+------------------------------------------------------------

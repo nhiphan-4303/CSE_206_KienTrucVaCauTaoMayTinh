@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_4/Lab_4_4/Assignment4.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_4/Lab_4_4/db/Assignment4.cbx.xml
+design_name = Assignment4
+instance = comp, \HanhNhi_B~output , HanhNhi_B~output, Assignment4, 1
+instance = comp, \HanhNhi_Y~output , HanhNhi_Y~output, Assignment4, 1
+instance = comp, \pin_name1~output , pin_name1~output, Assignment4, 1
+instance = comp, \CLOCK~input , CLOCK~input, Assignment4, 1
+instance = comp, \CLOCK~inputCLKENA0 , CLOCK~inputCLKENA0, Assignment4, 1
+instance = comp, \HanhNhi_X~input , HanhNhi_X~input, Assignment4, 1
+instance = comp, \RESET~input , RESET~input, Assignment4, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Assignment4, 1

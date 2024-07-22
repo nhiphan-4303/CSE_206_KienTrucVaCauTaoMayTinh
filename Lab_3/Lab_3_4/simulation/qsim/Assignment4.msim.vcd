@@ -1,0 +1,178 @@
+$comment
+	File created using the following command:
+		vcd file Assignment4.msim.vcd -direction
+$end
+$date
+	Sun May 12 02:54:29 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Assignment4_vlg_vec_tst $end
+$var reg 1 ! HanhNhi_A $end
+$var reg 1 " HanhNhi_B $end
+$var reg 1 # HanhNhi_C $end
+$var reg 1 $ HanhNhi_D $end
+$var wire 1 % HanhNhi_GEW $end
+$var wire 1 & HanhNhi_GNS $end
+$var wire 1 ' HanhNhi_REW $end
+$var wire 1 ( HanhNhi_RNS $end
+$var wire 1 ) HanhNhi_YEW $end
+$var wire 1 * HanhNhi_YNS $end
+
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 2 HanhNhi_C~input_o $end
+$var wire 1 3 HanhNhi_D~input_o $end
+$var wire 1 4 HanhNhi_B~input_o $end
+$var wire 1 5 HanhNhi_A~input_o $end
+$var wire 1 6 inst1111~combout $end
+$var wire 1 7 inst222~combout $end
+$var wire 1 8 inst44444~0_combout $end
+$var wire 1 9 inst77777~combout $end
+$var wire 1 : inst8888~combout $end
+$var wire 1 ; inst13131313~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+1(
+0)
+0*
+0+
+1,
+x-
+1.
+1/
+10
+01
+02
+03
+04
+05
+16
+07
+08
+19
+0:
+0;
+$end
+#10000
+1$
+13
+1;
+09
+0'
+1%
+#20000
+1#
+0$
+12
+03
+#30000
+1$
+13
+#40000
+1"
+0#
+0$
+14
+02
+03
+#50000
+1$
+13
+#60000
+1#
+0$
+12
+03
+#70000
+1$
+13
+0;
+1:
+1)
+0%
+#80000
+1!
+0"
+0#
+0$
+15
+04
+02
+03
+0:
+19
+1'
+0)
+#90000
+1$
+13
+18
+06
+0(
+1&
+#100000
+1#
+0$
+12
+03
+#110000
+1$
+13
+#120000
+1"
+0#
+0$
+14
+02
+03
+#130000
+1$
+13
+#140000
+1#
+0$
+12
+03
+#150000
+1$
+13
+08
+17
+1*
+0&
+#160000
+0!
+0"
+0#
+0$
+05
+04
+02
+03
+07
+16
+1(
+0*
+#200000

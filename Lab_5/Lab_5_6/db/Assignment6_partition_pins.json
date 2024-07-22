@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HanhNhi_D[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "CLEAR",
+					"strict" : false
+				},
+				{
+					"name" : "WREN",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_A[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

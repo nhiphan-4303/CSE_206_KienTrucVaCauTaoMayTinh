@@ -1,0 +1,418 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "05/11/2024 23:53:00"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module adder_subtractor (
+	HanhNhi_S0,
+	HanhNhi_A0,
+	HanhNhi_K,
+	HanhNhi_B0,
+	HanhNhi_S1,
+	HanhNhi_A1,
+	HanhNhi_B1,
+	HanhNhi_S2,
+	HanhNhi_A2,
+	HanhNhi_B2,
+	HanhNhi_Count,
+	HanhNhi_A3,
+	HanhNhi_B3,
+	HanhNhi_S3);
+output 	HanhNhi_S0;
+input 	HanhNhi_A0;
+input 	HanhNhi_K;
+input 	HanhNhi_B0;
+output 	HanhNhi_S1;
+input 	HanhNhi_A1;
+input 	HanhNhi_B1;
+output 	HanhNhi_S2;
+input 	HanhNhi_A2;
+input 	HanhNhi_B2;
+output 	HanhNhi_Count;
+input 	HanhNhi_A3;
+input 	HanhNhi_B3;
+output 	HanhNhi_S3;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \HanhNhi_S0~output_o ;
+wire \HanhNhi_S1~output_o ;
+wire \HanhNhi_S2~output_o ;
+wire \HanhNhi_Count~output_o ;
+wire \HanhNhi_S3~output_o ;
+wire \HanhNhi_A0~input_o ;
+wire \HanhNhi_B0~input_o ;
+wire \inst2|inst3~0_combout ;
+wire \HanhNhi_A1~input_o ;
+wire \HanhNhi_K~input_o ;
+wire \HanhNhi_B1~input_o ;
+wire \inst3|inst3~combout ;
+wire \inst3|inst4~combout ;
+wire \HanhNhi_A2~input_o ;
+wire \HanhNhi_B2~input_o ;
+wire \inst1|inst3~combout ;
+wire \HanhNhi_A3~input_o ;
+wire \HanhNhi_B3~input_o ;
+wire \inst|inst4~combout ;
+wire \inst|inst3~combout ;
+
+
+cyclonev_io_obuf \HanhNhi_S0~output (
+	.i(\inst2|inst3~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_S0~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_S0~output .bus_hold = "false";
+defparam \HanhNhi_S0~output .open_drain_output = "false";
+defparam \HanhNhi_S0~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_S1~output (
+	.i(\inst3|inst3~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_S1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_S1~output .bus_hold = "false";
+defparam \HanhNhi_S1~output .open_drain_output = "false";
+defparam \HanhNhi_S1~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_S2~output (
+	.i(\inst1|inst3~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_S2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_S2~output .bus_hold = "false";
+defparam \HanhNhi_S2~output .open_drain_output = "false";
+defparam \HanhNhi_S2~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Count~output (
+	.i(\inst|inst4~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Count~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Count~output .bus_hold = "false";
+defparam \HanhNhi_Count~output .open_drain_output = "false";
+defparam \HanhNhi_Count~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_S3~output (
+	.i(\inst|inst3~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_S3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_S3~output .bus_hold = "false";
+defparam \HanhNhi_S3~output .open_drain_output = "false";
+defparam \HanhNhi_S3~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_A0~input (
+	.i(HanhNhi_A0),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_A0~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_A0~input .bus_hold = "false";
+defparam \HanhNhi_A0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_B0~input (
+	.i(HanhNhi_B0),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_B0~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_B0~input .bus_hold = "false";
+defparam \HanhNhi_B0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst2|inst3~0 (
+// Equation(s):
+// \inst2|inst3~0_combout  = !\HanhNhi_A0~input_o  $ (!\HanhNhi_B0~input_o )
+
+	.dataa(!\HanhNhi_A0~input_o ),
+	.datab(!\HanhNhi_B0~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst2|inst3~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst2|inst3~0 .extended_lut = "off";
+defparam \inst2|inst3~0 .lut_mask = 64'h6666666666666666;
+defparam \inst2|inst3~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_A1~input (
+	.i(HanhNhi_A1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_A1~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_A1~input .bus_hold = "false";
+defparam \HanhNhi_A1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_K~input (
+	.i(HanhNhi_K),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_K~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_K~input .bus_hold = "false";
+defparam \HanhNhi_K~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_B1~input (
+	.i(HanhNhi_B1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_B1~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_B1~input .bus_hold = "false";
+defparam \HanhNhi_B1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst3|inst3 (
+// Equation(s):
+// \inst3|inst3~combout  = ( \HanhNhi_B1~input_o  & ( !\HanhNhi_A1~input_o  $ (((\HanhNhi_B0~input_o  & (!\HanhNhi_A0~input_o  $ (!\HanhNhi_K~input_o ))))) ) ) # ( !\HanhNhi_B1~input_o  & ( !\HanhNhi_A1~input_o  $ (((!\HanhNhi_B0~input_o ) # 
+// (!\HanhNhi_A0~input_o  $ (\HanhNhi_K~input_o )))) ) )
+
+	.dataa(!\HanhNhi_A0~input_o ),
+	.datab(!\HanhNhi_B0~input_o ),
+	.datac(!\HanhNhi_A1~input_o ),
+	.datad(!\HanhNhi_K~input_o ),
+	.datae(!\HanhNhi_B1~input_o ),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst3|inst3~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst3|inst3 .extended_lut = "off";
+defparam \inst3|inst3 .lut_mask = 64'h1E2DE1D21E2DE1D2;
+defparam \inst3|inst3 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst3|inst4 (
+// Equation(s):
+// \inst3|inst4~combout  = ( \HanhNhi_B1~input_o  & ( (!\HanhNhi_A0~input_o  & (\HanhNhi_A1~input_o  & ((!\HanhNhi_B0~input_o ) # (!\HanhNhi_K~input_o )))) # (\HanhNhi_A0~input_o  & (((\HanhNhi_B0~input_o  & !\HanhNhi_K~input_o )) # (\HanhNhi_A1~input_o ))) 
+// ) ) # ( !\HanhNhi_B1~input_o  & ( (!\HanhNhi_A0~input_o  & (\HanhNhi_K~input_o  & ((!\HanhNhi_B0~input_o ) # (\HanhNhi_A1~input_o )))) # (\HanhNhi_A0~input_o  & (((\HanhNhi_B0~input_o  & \HanhNhi_A1~input_o )) # (\HanhNhi_K~input_o ))) ) )
+
+	.dataa(!\HanhNhi_A0~input_o ),
+	.datab(!\HanhNhi_B0~input_o ),
+	.datac(!\HanhNhi_A1~input_o ),
+	.datad(!\HanhNhi_K~input_o ),
+	.datae(!\HanhNhi_B1~input_o ),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst3|inst4~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst3|inst4 .extended_lut = "off";
+defparam \inst3|inst4 .lut_mask = 64'h01DF1F0D01DF1F0D;
+defparam \inst3|inst4 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_A2~input (
+	.i(HanhNhi_A2),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_A2~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_A2~input .bus_hold = "false";
+defparam \HanhNhi_A2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_B2~input (
+	.i(HanhNhi_B2),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_B2~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_B2~input .bus_hold = "false";
+defparam \HanhNhi_B2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst1|inst3 (
+// Equation(s):
+// \inst1|inst3~combout  = !\HanhNhi_K~input_o  $ (!\inst3|inst4~combout  $ (!\HanhNhi_A2~input_o  $ (!\HanhNhi_B2~input_o )))
+
+	.dataa(!\HanhNhi_K~input_o ),
+	.datab(!\inst3|inst4~combout ),
+	.datac(!\HanhNhi_A2~input_o ),
+	.datad(!\HanhNhi_B2~input_o ),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst1|inst3~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst1|inst3 .extended_lut = "off";
+defparam \inst1|inst3 .lut_mask = 64'h6996699669966996;
+defparam \inst1|inst3 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_A3~input (
+	.i(HanhNhi_A3),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_A3~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_A3~input .bus_hold = "false";
+defparam \HanhNhi_A3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_B3~input (
+	.i(HanhNhi_B3),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_B3~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_B3~input .bus_hold = "false";
+defparam \HanhNhi_B3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst|inst4 (
+// Equation(s):
+// \inst|inst4~combout  = ( \HanhNhi_A3~input_o  & ( \HanhNhi_B3~input_o  & ( (!\HanhNhi_K~input_o ) # ((!\inst3|inst4~combout  & (\HanhNhi_A2~input_o  & !\HanhNhi_B2~input_o )) # (\inst3|inst4~combout  & ((!\HanhNhi_B2~input_o ) # (\HanhNhi_A2~input_o )))) 
+// ) ) ) # ( !\HanhNhi_A3~input_o  & ( \HanhNhi_B3~input_o  & ( (!\HanhNhi_K~input_o  & ((!\inst3|inst4~combout  & (\HanhNhi_A2~input_o  & \HanhNhi_B2~input_o )) # (\inst3|inst4~combout  & ((\HanhNhi_B2~input_o ) # (\HanhNhi_A2~input_o ))))) ) ) ) # ( 
+// \HanhNhi_A3~input_o  & ( !\HanhNhi_B3~input_o  & ( ((!\inst3|inst4~combout  & (\HanhNhi_A2~input_o  & \HanhNhi_B2~input_o )) # (\inst3|inst4~combout  & ((\HanhNhi_B2~input_o ) # (\HanhNhi_A2~input_o )))) # (\HanhNhi_K~input_o ) ) ) ) # ( 
+// !\HanhNhi_A3~input_o  & ( !\HanhNhi_B3~input_o  & ( (\HanhNhi_K~input_o  & ((!\inst3|inst4~combout  & (\HanhNhi_A2~input_o  & !\HanhNhi_B2~input_o )) # (\inst3|inst4~combout  & ((!\HanhNhi_B2~input_o ) # (\HanhNhi_A2~input_o ))))) ) ) )
+
+	.dataa(!\HanhNhi_K~input_o ),
+	.datab(!\inst3|inst4~combout ),
+	.datac(!\HanhNhi_A2~input_o ),
+	.datad(!\HanhNhi_B2~input_o ),
+	.datae(!\HanhNhi_A3~input_o ),
+	.dataf(!\HanhNhi_B3~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst|inst4~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst|inst4 .extended_lut = "off";
+defparam \inst|inst4 .lut_mask = 64'h1501577F022ABFAB;
+defparam \inst|inst4 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst|inst3 (
+// Equation(s):
+// \inst|inst3~combout  = ( \HanhNhi_A3~input_o  & ( \HanhNhi_B3~input_o  & ( (!\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  & (\HanhNhi_K~input_o )) # (\HanhNhi_A2~input_o  & ((\HanhNhi_B2~input_o ))))) # (\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  
+// & ((\HanhNhi_B2~input_o ))) # (\HanhNhi_A2~input_o  & (!\HanhNhi_K~input_o )))) ) ) ) # ( !\HanhNhi_A3~input_o  & ( \HanhNhi_B3~input_o  & ( (!\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  & (!\HanhNhi_K~input_o )) # (\HanhNhi_A2~input_o  & 
+// ((!\HanhNhi_B2~input_o ))))) # (\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  & ((!\HanhNhi_B2~input_o ))) # (\HanhNhi_A2~input_o  & (\HanhNhi_K~input_o )))) ) ) ) # ( \HanhNhi_A3~input_o  & ( !\HanhNhi_B3~input_o  & ( (!\inst3|inst4~combout  & 
+// ((!\HanhNhi_A2~input_o  & (!\HanhNhi_K~input_o )) # (\HanhNhi_A2~input_o  & ((!\HanhNhi_B2~input_o ))))) # (\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  & ((!\HanhNhi_B2~input_o ))) # (\HanhNhi_A2~input_o  & (\HanhNhi_K~input_o )))) ) ) ) # ( 
+// !\HanhNhi_A3~input_o  & ( !\HanhNhi_B3~input_o  & ( (!\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  & (\HanhNhi_K~input_o )) # (\HanhNhi_A2~input_o  & ((\HanhNhi_B2~input_o ))))) # (\inst3|inst4~combout  & ((!\HanhNhi_A2~input_o  & ((\HanhNhi_B2~input_o 
+// ))) # (\HanhNhi_A2~input_o  & (!\HanhNhi_K~input_o )))) ) ) )
+
+	.dataa(!\HanhNhi_K~input_o ),
+	.datab(!\inst3|inst4~combout ),
+	.datac(!\HanhNhi_A2~input_o ),
+	.datad(!\HanhNhi_B2~input_o ),
+	.datae(!\HanhNhi_A3~input_o ),
+	.dataf(!\HanhNhi_B3~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst|inst3~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst|inst3 .extended_lut = "off";
+defparam \inst|inst3 .lut_mask = 64'h427EBD81BD81427E;
+defparam \inst|inst3 .shared_arith = "off";
+// synopsys translate_on
+
+assign HanhNhi_S0 = \HanhNhi_S0~output_o ;
+
+assign HanhNhi_S1 = \HanhNhi_S1~output_o ;
+
+assign HanhNhi_S2 = \HanhNhi_S2~output_o ;
+
+assign HanhNhi_Count = \HanhNhi_Count~output_o ;
+
+assign HanhNhi_S3 = \HanhNhi_S3~output_o ;
+
+endmodule

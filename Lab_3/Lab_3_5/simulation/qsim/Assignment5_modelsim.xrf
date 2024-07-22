@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_5/Assignment5.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_5/Waveform.vwf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_5/Waveform1.vwf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_5/db/Assignment5.cbx.xml
+design_name = Assignment5
+instance = comp, \HanhNhi_Y0~output , HanhNhi_Y0~output, Assignment5, 1
+instance = comp, \HanhNhi_Y5~output , HanhNhi_Y5~output, Assignment5, 1
+instance = comp, \HanhNhi_Y1~output , HanhNhi_Y1~output, Assignment5, 1
+instance = comp, \HanhNhi_Y4~output , HanhNhi_Y4~output, Assignment5, 1
+instance = comp, \HanhNhi_Y3~output , HanhNhi_Y3~output, Assignment5, 1
+instance = comp, \HanhNhi_Y2~output , HanhNhi_Y2~output, Assignment5, 1
+instance = comp, \HanhNhi_C~input , HanhNhi_C~input, Assignment5, 1
+instance = comp, \HanhNhi_B~input , HanhNhi_B~input, Assignment5, 1
+instance = comp, \HanhNhi_A~input , HanhNhi_A~input, Assignment5, 1
+instance = comp, \inst666~0 , inst666~0, Assignment5, 1

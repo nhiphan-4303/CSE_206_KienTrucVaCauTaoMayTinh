@@ -1,0 +1,21 @@
+|Assignment5
+HanhNhi_Y0 <= HanhNhi_C.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_C => HanhNhi_Y0.DATAIN
+HanhNhi_C => inst7777.IN0
+HanhNhi_C => inst1111111112222.IN0
+HanhNhi_C => inst4444.IN0
+HanhNhi_Y5 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_B => inst2.IN0
+HanhNhi_B => inst11.IN0
+HanhNhi_B => inst12.IN0
+HanhNhi_B => inst3333.IN1
+HanhNhi_A => inst2.IN1
+HanhNhi_A => inst7777.IN1
+HanhNhi_A => inst55555.IN1
+HanhNhi_A => inst12.IN1
+HanhNhi_Y1 <= <GND>
+HanhNhi_Y4 <= inst666.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_Y3 <= inst1111111112222.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_Y2 <= inst3333.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HNhi_Out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Operation_Code[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_A[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_B[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

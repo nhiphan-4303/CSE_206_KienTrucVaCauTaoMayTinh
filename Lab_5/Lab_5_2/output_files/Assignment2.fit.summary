@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Jun 02 14:26:51 2024
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Assignment2
+Top-level Entity Name : Assignment2
+Family : MAX 10
+Device : 10M08DAF484C8G
+Timing Models : Final
+Total logic elements : 1 / 8,064 ( < 1 % )
+    Total combinational functions : 1 / 8,064 ( < 1 % )
+    Dedicated logic registers : 0 / 8,064 ( 0 % )
+Total registers : 0
+Total pins : 15 / 250 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 128 / 387,072 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

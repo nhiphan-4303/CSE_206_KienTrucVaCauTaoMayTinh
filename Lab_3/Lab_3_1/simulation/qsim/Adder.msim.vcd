@@ -1,0 +1,296 @@
+$comment
+	File created using the following command:
+		vcd file Adder.msim.vcd -direction
+$end
+$date
+	Tue May 07 14:16:46 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module ripple_carry_adder_4_vlg_vec_tst $end
+$var reg 1 ! HanhNhi_A0 $end
+$var reg 1 " HanhNhi_A1 $end
+$var reg 1 # HanhNhi_A2 $end
+$var reg 1 $ HanhNhi_A3 $end
+$var reg 1 % HanhNhi_B0 $end
+$var reg 1 & HanhNhi_B1 $end
+$var reg 1 ' HanhNhi_B2 $end
+$var reg 1 ( HanhNhi_B3 $end
+$var wire 1 ) HanhNhi_C4 $end
+$var wire 1 * HanhNhi_S0 $end
+$var wire 1 + HanhNhi_S1 $end
+$var wire 1 , HanhNhi_S2 $end
+$var wire 1 - HanhNhi_S3 $end
+
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 5 HanhNhi_B0~input_o $end
+$var wire 1 6 HanhNhi_A0~input_o $end
+$var wire 1 7 inst3|inst2~combout $end
+$var wire 1 8 HanhNhi_A1~input_o $end
+$var wire 1 9 HanhNhi_B1~input_o $end
+$var wire 1 : inst2|inst3~combout $end
+$var wire 1 ; HanhNhi_A2~input_o $end
+$var wire 1 < HanhNhi_B2~input_o $end
+$var wire 1 = inst1|inst3~combout $end
+$var wire 1 > HanhNhi_B3~input_o $end
+$var wire 1 ? HanhNhi_A3~input_o $end
+$var wire 1 @ inst2|inst4~combout $end
+$var wire 1 A inst|inst3~combout $end
+$var wire 1 B inst|inst4~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+1/
+x0
+11
+12
+13
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+$end
+#10000
+1!
+1%
+16
+15
+1:
+1+
+#20000
+1"
+1&
+0!
+0%
+18
+19
+06
+05
+1@
+1=
+0:
+0+
+1,
+#30000
+1!
+1%
+16
+15
+1:
+1+
+#40000
+1#
+1'
+0"
+0&
+0!
+0%
+1;
+1<
+08
+09
+06
+05
+0@
+0=
+0:
+1A
+1-
+0+
+0,
+#50000
+1!
+1%
+16
+15
+1:
+1+
+#60000
+1"
+1&
+0!
+0%
+18
+19
+06
+05
+1@
+1=
+0:
+0+
+1,
+#70000
+1!
+1%
+16
+15
+1:
+1+
+#80000
+1$
+1(
+0#
+0'
+0"
+0&
+0!
+0%
+1?
+1>
+0;
+0<
+08
+09
+06
+05
+0@
+0=
+0:
+1B
+0A
+0-
+1)
+0+
+0,
+#90000
+1!
+1%
+16
+15
+1:
+1+
+#100000
+1"
+1&
+0!
+0%
+18
+19
+06
+05
+1@
+1=
+0:
+0+
+1,
+#110000
+1!
+1%
+16
+15
+1:
+1+
+#120000
+1#
+1'
+0"
+0&
+0!
+0%
+1;
+1<
+08
+09
+06
+05
+0@
+0=
+0:
+1A
+1-
+0+
+0,
+#130000
+1!
+1%
+16
+15
+1:
+1+
+#140000
+1"
+1&
+0!
+0%
+18
+19
+06
+05
+1@
+1=
+0:
+0+
+1,
+#150000
+1!
+1%
+16
+15
+1:
+1+
+#160000
+0$
+0(
+0#
+0'
+0"
+0&
+0!
+0%
+0?
+0>
+0;
+0<
+08
+09
+06
+05
+0@
+0=
+0:
+0B
+0A
+0-
+0)
+0+
+0,
+#180000

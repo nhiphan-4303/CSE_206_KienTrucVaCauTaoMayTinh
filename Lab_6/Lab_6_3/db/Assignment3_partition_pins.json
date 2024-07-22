@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HNhi_ADDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[23]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[22]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[21]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[20]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[19]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[18]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[17]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[16]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[15]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[14]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[13]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[12]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[11]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[10]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[8]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_Clock",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLEAR",
+					"strict" : false
+				},
+				{
+					"name" : "LOAD_INCN",
+					"strict" : false
+				},
+				{
+					"name" : "WREN",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

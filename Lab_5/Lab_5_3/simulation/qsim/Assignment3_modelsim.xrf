@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_5/Lab_5_3/Assignment3.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_5/Lab_5_3/db/Assignment3.cbx.xml
+design_name = Assignment3
+instance = comp, \HanhNhi_D[7]~output , HanhNhi_D[7]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[6]~output , HanhNhi_D[6]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[5]~output , HanhNhi_D[5]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[4]~output , HanhNhi_D[4]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[3]~output , HanhNhi_D[3]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[2]~output , HanhNhi_D[2]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[1]~output , HanhNhi_D[1]~output, Assignment3, 1
+instance = comp, \HanhNhi_D[0]~output , HanhNhi_D[0]~output, Assignment3, 1
+instance = comp, \HanhNhi_A[1]~input , HanhNhi_A[1]~input, Assignment3, 1
+instance = comp, \HanhNhi_A[2]~input , HanhNhi_A[2]~input, Assignment3, 1
+instance = comp, \HanhNhi_A[0]~input , HanhNhi_A[0]~input, Assignment3, 1
+instance = comp, \HanhNhi_EN~input , HanhNhi_EN~input, Assignment3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Assignment3, 1

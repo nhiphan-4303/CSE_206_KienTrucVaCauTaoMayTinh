@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HNhi_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_address[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "WREN",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_data[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,309 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HanhNhi_Y[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_I1[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

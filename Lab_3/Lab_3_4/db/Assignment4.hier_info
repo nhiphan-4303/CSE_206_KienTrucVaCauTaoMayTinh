@@ -1,0 +1,30 @@
+|Assignment4
+HanhNhi_RNS <= inst1111.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_B => inst2.IN0
+HanhNhi_B => inst222.IN1
+HanhNhi_B => inst5.IN1
+HanhNhi_B => inst8888.IN1
+HanhNhi_B => inst9999.IN1
+HanhNhi_C => inst3.IN0
+HanhNhi_C => inst222.IN2
+HanhNhi_C => inst555555.IN2
+HanhNhi_C => inst8888.IN2
+HanhNhi_C => inst12121212.IN1
+HanhNhi_D => inst4.IN0
+HanhNhi_D => inst222.IN3
+HanhNhi_D => inst6.IN2
+HanhNhi_D => inst8888.IN3
+HanhNhi_D => inst101010101.IN2
+HanhNhi_A => inst.IN0
+HanhNhi_A => inst222.IN0
+HanhNhi_A => inst6.IN0
+HanhNhi_A => inst555555.IN0
+HanhNhi_A => inst5.IN0
+HanhNhi_A => inst77777.IN1
+HanhNhi_YNS <= inst222.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_GNS <= inst44444.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_REW <= inst77777.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_YEW <= inst8888.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_GEW <= inst13131313.DB_MAX_OUTPUT_PORT_TYPE
+
+

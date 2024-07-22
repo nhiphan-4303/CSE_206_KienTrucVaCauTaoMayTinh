@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_4/Lab_4_2/Assignment2.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_4/Lab_4_2/Waveform.vwf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_4/Lab_4_2/db/Assignment2.cbx.xml
+design_name = Assignment2
+instance = comp, \HanhNhi_A~output , HanhNhi_A~output, Assignment2, 1
+instance = comp, \HanhNhi_B~output , HanhNhi_B~output, Assignment2, 1
+instance = comp, \HanhNhi_Y~output , HanhNhi_Y~output, Assignment2, 1
+instance = comp, \HanhNhi_Clock~input , HanhNhi_Clock~input, Assignment2, 1
+instance = comp, \HanhNhi_X~input , HanhNhi_X~input, Assignment2, 1
+instance = comp, \inst10~0 , inst10~0, Assignment2, 1
+instance = comp, \HanhNhi_Reset~input , HanhNhi_Reset~input, Assignment2, 1
+instance = comp, \inst9~0 , inst9~0, Assignment2, 1

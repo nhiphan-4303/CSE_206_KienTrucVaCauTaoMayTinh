@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_3/Assignment3.bdf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_3/Waveform.vwf
+source_file = 1, C:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_3/Lab_3_3/db/Assignment3.cbx.xml
+design_name = Assignment3
+instance = comp, \HanhNhi_X~output , HanhNhi_X~output, Assignment3, 1
+instance = comp, \HanhNhi_Y~output , HanhNhi_Y~output, Assignment3, 1
+instance = comp, \HanhNhi_Z~output , HanhNhi_Z~output, Assignment3, 1
+instance = comp, \HanhNhi_W~output , HanhNhi_W~output, Assignment3, 1
+instance = comp, \HanhNhi_A~input , HanhNhi_A~input, Assignment3, 1
+instance = comp, \HanhNhi_B~input , HanhNhi_B~input, Assignment3, 1
+instance = comp, \HanhNhi_C~input , HanhNhi_C~input, Assignment3, 1
+instance = comp, \inst6666~0 , inst6666~0, Assignment3, 1
+instance = comp, \HanhNhi_D~input , HanhNhi_D~input, Assignment3, 1
+instance = comp, \inst12~0 , inst12~0, Assignment3, 1

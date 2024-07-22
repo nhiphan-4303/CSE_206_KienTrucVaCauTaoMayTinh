@@ -1,0 +1,256 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "05/20/2024 02:09:00"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Assignment2 (
+	HanhNhi_A,
+	HanhNhi_Reset,
+	HanhNhi_Clock,
+	HanhNhi_X,
+	HanhNhi_B,
+	HanhNhi_Y);
+output 	HanhNhi_A;
+input 	HanhNhi_Reset;
+input 	HanhNhi_Clock;
+input 	HanhNhi_X;
+output 	HanhNhi_B;
+output 	HanhNhi_Y;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \HanhNhi_A~output_o ;
+wire \HanhNhi_B~output_o ;
+wire \HanhNhi_Y~output_o ;
+wire \HanhNhi_Clock~input_o ;
+wire \HanhNhi_X~input_o ;
+wire \inst10~0_combout ;
+wire \HanhNhi_Reset~input_o ;
+wire \inst10~q ;
+wire \inst9~0_combout ;
+wire \inst9~q ;
+wire \inst6~combout ;
+
+
+cyclonev_io_obuf \HanhNhi_A~output (
+	.i(\inst9~q ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_A~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_A~output .bus_hold = "false";
+defparam \HanhNhi_A~output .open_drain_output = "false";
+defparam \HanhNhi_A~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_B~output (
+	.i(\inst10~q ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_B~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_B~output .bus_hold = "false";
+defparam \HanhNhi_B~output .open_drain_output = "false";
+defparam \HanhNhi_B~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Y~output (
+	.i(!\inst6~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y~output .bus_hold = "false";
+defparam \HanhNhi_Y~output .open_drain_output = "false";
+defparam \HanhNhi_Y~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_Clock~input (
+	.i(HanhNhi_Clock),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_Clock~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_Clock~input .bus_hold = "false";
+defparam \HanhNhi_Clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_X~input (
+	.i(HanhNhi_X),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_X~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_X~input .bus_hold = "false";
+defparam \HanhNhi_X~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst10~0 (
+// Equation(s):
+// \inst10~0_combout  = !\HanhNhi_X~input_o 
+
+	.dataa(!\HanhNhi_X~input_o ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst10~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst10~0 .extended_lut = "off";
+defparam \inst10~0 .lut_mask = 64'hAAAAAAAAAAAAAAAA;
+defparam \inst10~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_Reset~input (
+	.i(HanhNhi_Reset),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_Reset~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_Reset~input .bus_hold = "false";
+defparam \HanhNhi_Reset~input .simulate_z_as = "z";
+// synopsys translate_on
+
+dffeas inst10(
+	.clk(\HanhNhi_Clock~input_o ),
+	.d(\inst10~0_combout ),
+	.asdata(vcc),
+	.clrn(!\HanhNhi_Reset~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst10~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam inst10.is_wysiwyg = "true";
+defparam inst10.power_up = "low";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst9~0 (
+// Equation(s):
+// \inst9~0_combout  = !\inst9~q  $ (((!\inst10~q ) # (!\HanhNhi_X~input_o )))
+
+	.dataa(!\inst9~q ),
+	.datab(!\inst10~q ),
+	.datac(!\HanhNhi_X~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst9~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst9~0 .extended_lut = "off";
+defparam \inst9~0 .lut_mask = 64'h5656565656565656;
+defparam \inst9~0 .shared_arith = "off";
+// synopsys translate_on
+
+dffeas inst9(
+	.clk(\HanhNhi_Clock~input_o ),
+	.d(\inst9~0_combout ),
+	.asdata(vcc),
+	.clrn(!\HanhNhi_Reset~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst9~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam inst9.is_wysiwyg = "true";
+defparam inst9.power_up = "low";
+// synopsys translate_on
+
+cyclonev_lcell_comb inst6(
+// Equation(s):
+// \inst6~combout  = (\inst10~q ) # (\inst9~q )
+
+	.dataa(!\inst9~q ),
+	.datab(!\inst10~q ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst6~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst6.extended_lut = "off";
+defparam inst6.lut_mask = 64'h7777777777777777;
+defparam inst6.shared_arith = "off";
+// synopsys translate_on
+
+assign HanhNhi_A = \HanhNhi_A~output_o ;
+
+assign HanhNhi_B = \HanhNhi_B~output_o ;
+
+assign HanhNhi_Y = \HanhNhi_Y~output_o ;
+
+endmodule

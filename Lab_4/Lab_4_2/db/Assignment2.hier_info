@@ -1,0 +1,11 @@
+|Assignment2
+HanhNhi_A <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_Reset => inst3.IN0
+HanhNhi_Clock => inst9.CLK
+HanhNhi_Clock => inst10.CLK
+HanhNhi_X => inst2.IN0
+HanhNhi_X => inst111.IN2
+HanhNhi_B <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_Y <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

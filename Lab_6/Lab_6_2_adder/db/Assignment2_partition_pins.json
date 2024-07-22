@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HNhi_ADDR_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_ADDR_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_CLOCk",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_CLEAR",
+					"strict" : false
+				},
+				{
+					"name" : "LOAD_INCN",
+					"strict" : false
+				},
+				{
+					"name" : "HNhi_WREN",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR_IN[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HanhNhi_A",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Z",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_B",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Y",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Clock",
+					"strict" : false
+				},
+				{
+					"name" : "HanhNhi_Reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

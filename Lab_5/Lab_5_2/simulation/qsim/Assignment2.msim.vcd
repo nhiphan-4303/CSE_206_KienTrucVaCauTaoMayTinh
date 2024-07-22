@@ -1,0 +1,416 @@
+$comment
+	File created using the following command:
+		vcd file Assignment2.msim.vcd -direction
+$end
+$date
+	Tue May 21 19:36:04 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Assignment2_vlg_vec_tst $end
+$var reg 5 ! HanhNhi_address [4:0] $end
+$var reg 1 " HanhNhi_Clock $end
+$var reg 4 # HanhNhi_data [3:0] $end
+$var reg 1 $ HanhNhi_wren $end
+$var wire 1 % HanhNhi_q [3] $end
+$var wire 1 & HanhNhi_q [2] $end
+$var wire 1 ' HanhNhi_q [1] $end
+$var wire 1 ( HanhNhi_q [0] $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 0 ~QUARTUS_CREATED_UNVM~~busy $end
+$var wire 1 1 ~QUARTUS_CREATED_ADC1~~eoc $end
+$var wire 1 2 HanhNhi_q[3]~output_o $end
+$var wire 1 3 HanhNhi_q[2]~output_o $end
+$var wire 1 4 HanhNhi_q[1]~output_o $end
+$var wire 1 5 HanhNhi_q[0]~output_o $end
+$var wire 1 6 HanhNhi_wren~input_o $end
+$var wire 1 7 HanhNhi_Clock~input_o $end
+$var wire 1 8 HanhNhi_Clock~inputclkctrl_outclk $end
+$var wire 1 9 HanhNhi_data[0]~input_o $end
+$var wire 1 : HanhNhi_address[0]~input_o $end
+$var wire 1 ; HanhNhi_address[1]~input_o $end
+$var wire 1 < HanhNhi_address[2]~input_o $end
+$var wire 1 = HanhNhi_address[3]~input_o $end
+$var wire 1 > HanhNhi_address[4]~input_o $end
+$var wire 1 ? HanhNhi_data[1]~input_o $end
+$var wire 1 @ HanhNhi_data[2]~input_o $end
+$var wire 1 A HanhNhi_data[3]~input_o $end
+$var wire 1 B inst|altsyncram_component|auto_generated|q_a [3] $end
+$var wire 1 C inst|altsyncram_component|auto_generated|q_a [2] $end
+$var wire 1 D inst|altsyncram_component|auto_generated|q_a [1] $end
+$var wire 1 E inst|altsyncram_component|auto_generated|q_a [0] $end
+$var wire 1 F inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 G inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 H inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 I inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 J inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 K inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 L inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 M inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 N inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 O inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 P inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 Q inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 R inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 S inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 T inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 U inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 V inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 W inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+b0 #
+0$
+0(
+0'
+0&
+0%
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+z0
+z1
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0E
+0D
+0C
+0B
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+$end
+#5000
+1"
+17
+18
+#10000
+b1 !
+0"
+07
+1:
+08
+#15000
+1"
+17
+18
+1W
+1E
+15
+1(
+#20000
+b11 !
+b10 !
+0"
+07
+1;
+0:
+08
+#25000
+1"
+17
+18
+0W
+1V
+0E
+1D
+14
+05
+0(
+1'
+#30000
+b11 !
+0"
+07
+1:
+08
+#35000
+1"
+17
+18
+1W
+1E
+15
+1(
+#40000
+b111 !
+b101 !
+b100 !
+0"
+07
+1<
+0;
+0:
+08
+#45000
+1"
+17
+18
+0V
+1T
+0D
+1B
+12
+04
+0'
+1%
+#50000
+b101 !
+0"
+07
+1:
+08
+#55000
+1"
+17
+18
+0W
+1V
+0E
+1D
+14
+05
+0(
+1'
+#60000
+b111 !
+b110 !
+0"
+07
+1;
+0:
+08
+#65000
+1"
+17
+18
+0V
+0T
+0D
+0B
+02
+04
+0'
+0%
+#70000
+b111 !
+0"
+07
+1:
+08
+#75000
+1"
+17
+18
+#80000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0"
+07
+1=
+0<
+0;
+0:
+08
+#85000
+1"
+17
+18
+#90000
+b1001 !
+0"
+07
+1:
+08
+#95000
+1"
+17
+18
+#100000
+b1011 !
+b1010 !
+0"
+07
+1;
+0:
+08
+#105000
+1"
+17
+18
+#110000
+b1011 !
+0"
+07
+1:
+08
+#115000
+1"
+17
+18
+1W
+1V
+1U
+1T
+1E
+1D
+1C
+1B
+12
+13
+14
+15
+1(
+1'
+1&
+1%
+#120000
+b1111 !
+b1101 !
+b1100 !
+0"
+07
+1<
+0;
+0:
+08
+#125000
+1"
+17
+18
+#130000
+b1101 !
+0"
+07
+1:
+08
+#135000
+1"
+17
+18
+#140000
+b1111 !
+b1110 !
+0"
+07
+1;
+0:
+08
+#145000
+1"
+17
+18
+#150000
+b1111 !
+0"
+07
+1:
+08
+#155000
+1"
+17
+18
+#160000
+b11111 !
+b10111 !
+b10011 !
+b10001 !
+b10000 !
+0"
+07
+1>
+0=
+0<
+0;
+0:
+08
+#165000
+1"
+17
+18
+#170000
+b10001 !
+0"
+07
+1:
+08
+#175000
+1"
+17
+18
+#180000
+b10011 !
+b10010 !
+0"
+07
+1;
+0:
+08
+#185000
+1"
+17
+18
+#190000
+b10011 !
+0"
+07
+1:
+08
+#195000
+1"
+17
+18
+#200000

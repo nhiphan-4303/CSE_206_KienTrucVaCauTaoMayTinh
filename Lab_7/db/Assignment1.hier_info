@@ -1,0 +1,377 @@
+|Assignment1
+HNhi_Out[0] <= mul2_1_8:inst3.HNhi_Out[0]
+HNhi_Out[1] <= mul2_1_8:inst3.HNhi_Out[1]
+HNhi_Out[2] <= mul2_1_8:inst3.HNhi_Out[2]
+HNhi_Out[3] <= mul2_1_8:inst3.HNhi_Out[3]
+HNhi_Out[4] <= mul2_1_8:inst3.HNhi_Out[4]
+HNhi_Out[5] <= mul2_1_8:inst3.HNhi_Out[5]
+HNhi_Out[6] <= mul2_1_8:inst3.HNhi_Out[6]
+HNhi_Out[7] <= mul2_1_8:inst3.HNhi_Out[7]
+HNhi_Operation_Code[0] => ~NO_FANOUT~
+HNhi_Operation_Code[1] => ~NO_FANOUT~
+HNhi_Operation_Code[2] => mul2_1_8:inst3.HNhi_S
+HNhi_A[0] => adder_8:inst.HNhi_A[0]
+HNhi_A[0] => gt_8:inst1.HNhi_A[0]
+HNhi_A[1] => adder_8:inst.HNhi_A[1]
+HNhi_A[1] => gt_8:inst1.HNhi_A[1]
+HNhi_A[2] => adder_8:inst.HNhi_A[2]
+HNhi_A[2] => gt_8:inst1.HNhi_A[2]
+HNhi_A[3] => adder_8:inst.HNhi_A[3]
+HNhi_A[3] => gt_8:inst1.HNhi_A[3]
+HNhi_A[4] => adder_8:inst.HNhi_A[4]
+HNhi_A[4] => gt_8:inst1.HNhi_A[4]
+HNhi_A[5] => adder_8:inst.HNhi_A[5]
+HNhi_A[5] => gt_8:inst1.HNhi_A[5]
+HNhi_A[6] => adder_8:inst.HNhi_A[6]
+HNhi_A[6] => gt_8:inst1.HNhi_A[6]
+HNhi_A[7] => adder_8:inst.HNhi_A[7]
+HNhi_A[7] => gt_8:inst1.HNhi_A[7]
+HNhi_B[0] => adder_8:inst.HNhi_B[0]
+HNhi_B[0] => gt_8:inst1.HNhi_B[0]
+HNhi_B[1] => adder_8:inst.HNhi_B[1]
+HNhi_B[1] => gt_8:inst1.HNhi_B[1]
+HNhi_B[2] => adder_8:inst.HNhi_B[2]
+HNhi_B[2] => gt_8:inst1.HNhi_B[2]
+HNhi_B[3] => adder_8:inst.HNhi_B[3]
+HNhi_B[3] => gt_8:inst1.HNhi_B[3]
+HNhi_B[4] => adder_8:inst.HNhi_B[4]
+HNhi_B[4] => gt_8:inst1.HNhi_B[4]
+HNhi_B[5] => adder_8:inst.HNhi_B[5]
+HNhi_B[5] => gt_8:inst1.HNhi_B[5]
+HNhi_B[6] => adder_8:inst.HNhi_B[6]
+HNhi_B[6] => gt_8:inst1.HNhi_B[6]
+HNhi_B[7] => adder_8:inst.HNhi_B[7]
+HNhi_B[7] => gt_8:inst1.HNhi_B[7]
+
+
+|Assignment1|mul2_1_8:inst3
+HNhi_Out[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_Out[7] <= S[7].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A[0] => mul2_1_1:inst8.HNhi_A
+HNhi_A[1] => mul2_1_1:inst9.HNhi_A
+HNhi_A[2] => mul2_1_1:inst.HNhi_A
+HNhi_A[3] => mul2_1_1:inst10.HNhi_A
+HNhi_A[4] => mul2_1_1:inst11.HNhi_A
+HNhi_A[5] => mul2_1_1:inst12.HNhi_A
+HNhi_A[6] => mul2_1_1:inst13.HNhi_A
+HNhi_A[7] => mul2_1_1:inst14.HNhi_A
+HNhi_B[0] => mul2_1_1:inst8.HNhi_B
+HNhi_B[1] => mul2_1_1:inst9.HNhi_B
+HNhi_B[2] => mul2_1_1:inst.HNhi_B
+HNhi_B[3] => mul2_1_1:inst10.HNhi_B
+HNhi_B[4] => mul2_1_1:inst11.HNhi_B
+HNhi_B[5] => mul2_1_1:inst12.HNhi_B
+HNhi_B[6] => mul2_1_1:inst13.HNhi_B
+HNhi_B[7] => mul2_1_1:inst14.HNhi_B
+HNhi_S => mul2_1_1:inst8.HNhi_S
+HNhi_S => mul2_1_1:inst9.HNhi_S
+HNhi_S => mul2_1_1:inst10.HNhi_S
+HNhi_S => mul2_1_1:inst.HNhi_S
+HNhi_S => mul2_1_1:inst11.HNhi_S
+HNhi_S => mul2_1_1:inst12.HNhi_S
+HNhi_S => mul2_1_1:inst13.HNhi_S
+HNhi_S => mul2_1_1:inst14.HNhi_S
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst8
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst9
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst10
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst11
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst12
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst13
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|mul2_1_8:inst3|mul2_1_1:inst14
+HNhi_Out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_B => inst3.IN0
+HNhi_S => inst3.IN1
+HNhi_S => inst2.IN0
+HNhi_A => inst.IN0
+
+
+|Assignment1|adder_8:inst
+HanhNhi_C8 <= full_adder:inst31.HanhNhi_C
+HNhi_A[0] => full_adder:inst3.HanhNhi_X
+HNhi_A[1] => full_adder:inst2.HanhNhi_X
+HNhi_A[2] => full_adder:inst1.HanhNhi_X
+HNhi_A[3] => full_adder:inst.HanhNhi_X
+HNhi_A[4] => full_adder:inst111.HanhNhi_X
+HNhi_A[5] => full_adder:inst11.HanhNhi_X
+HNhi_A[6] => full_adder:inst21.HanhNhi_X
+HNhi_A[7] => full_adder:inst31.HanhNhi_X
+HNhi_B[0] => full_adder:inst3.HanhNhi_Y
+HNhi_B[1] => full_adder:inst2.HanhNhi_Y
+HNhi_B[2] => full_adder:inst1.HanhNhi_Y
+HNhi_B[3] => full_adder:inst.HanhNhi_Y
+HNhi_B[4] => full_adder:inst111.HanhNhi_Y
+HNhi_B[5] => full_adder:inst11.HanhNhi_Y
+HNhi_B[6] => full_adder:inst21.HanhNhi_Y
+HNhi_B[7] => full_adder:inst31.HanhNhi_Y
+HNhi_S[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+HNhi_S[7] <= S[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst31
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst21
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst11
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst111
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst1
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst2
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|adder_8:inst|full_adder:inst3
+HanhNhi_C <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HanhNhi_X => inst1.IN0
+HanhNhi_X => inst2.IN0
+HanhNhi_Y => inst1.IN1
+HanhNhi_Y => inst2.IN1
+HanhNhi_Z => inst.IN1
+HanhNhi_Z => inst3.IN1
+HanhNhi_S <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1
+HNhi_EQ <= gt:inst18.HNhi_EQ
+HNhi_A[0] => gt:inst18.HNhi_A
+HNhi_A[1] => gt:inst17.HNhi_A
+HNhi_A[2] => gt:inst16.HNhi_A
+HNhi_A[3] => gt:inst14.HNhi_A
+HNhi_A[4] => gt:inst12.HNhi_A
+HNhi_A[5] => gt:inst11.HNhi_A
+HNhi_A[6] => gt:inst1.HNhi_A
+HNhi_A[7] => gt:inst.HNhi_A
+HNhi_B[0] => gt:inst18.HNhi_B
+HNhi_B[1] => gt:inst17.HNhi_B
+HNhi_B[2] => gt:inst16.HNhi_B
+HNhi_B[3] => gt:inst14.HNhi_B
+HNhi_B[4] => gt:inst12.HNhi_B
+HNhi_B[5] => gt:inst11.HNhi_B
+HNhi_B[6] => gt:inst1.HNhi_B
+HNhi_B[7] => gt:inst.HNhi_B
+HNhi_O[0] <= inst111.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_O[1] <= <GND>
+HNhi_O[2] <= <GND>
+HNhi_O[3] <= <GND>
+HNhi_O[4] <= <GND>
+HNhi_O[5] <= <GND>
+HNhi_O[6] <= <GND>
+HNhi_O[7] <= <GND>
+
+
+|Assignment1|gt_8:inst1|gt:inst18
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst17
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst16
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst14
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst12
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst11
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst1
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Assignment1|gt_8:inst1|gt:inst
+HNhi_EQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+HNhi_A => inst4.IN0
+HNhi_A => inst.IN1
+HNhi_B => inst4.IN1
+HNhi_B => inst5.IN0
+HNhi_PEQ => inst3.IN1
+HNhi_PEQ => inst.IN2
+HNhi_GT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

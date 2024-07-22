@@ -1,0 +1,302 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "05/11/2024 23:21:50"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Assignment5 (
+	HanhNhi_Y0,
+	HanhNhi_C,
+	HanhNhi_Y5,
+	HanhNhi_B,
+	HanhNhi_A,
+	HanhNhi_Y1,
+	HanhNhi_Y4,
+	HanhNhi_Y3,
+	HanhNhi_Y2);
+output 	HanhNhi_Y0;
+input 	HanhNhi_C;
+output 	HanhNhi_Y5;
+input 	HanhNhi_B;
+input 	HanhNhi_A;
+output 	HanhNhi_Y1;
+output 	HanhNhi_Y4;
+output 	HanhNhi_Y3;
+output 	HanhNhi_Y2;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \HanhNhi_Y0~output_o ;
+wire \HanhNhi_Y5~output_o ;
+wire \HanhNhi_Y1~output_o ;
+wire \HanhNhi_Y4~output_o ;
+wire \HanhNhi_Y3~output_o ;
+wire \HanhNhi_Y2~output_o ;
+wire \HanhNhi_C~input_o ;
+wire \HanhNhi_B~input_o ;
+wire \HanhNhi_A~input_o ;
+wire \inst2~combout ;
+wire \inst666~0_combout ;
+wire \inst1111111112222~combout ;
+wire \inst666~combout ;
+
+
+cyclonev_io_obuf \HanhNhi_Y0~output (
+	.i(\HanhNhi_C~input_o ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y0~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y0~output .bus_hold = "false";
+defparam \HanhNhi_Y0~output .open_drain_output = "false";
+defparam \HanhNhi_Y0~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Y5~output (
+	.i(\inst2~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y5~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y5~output .bus_hold = "false";
+defparam \HanhNhi_Y5~output .open_drain_output = "false";
+defparam \HanhNhi_Y5~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Y1~output (
+	.i(gnd),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y1~output .bus_hold = "false";
+defparam \HanhNhi_Y1~output .open_drain_output = "false";
+defparam \HanhNhi_Y1~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Y4~output (
+	.i(\inst666~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y4~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y4~output .bus_hold = "false";
+defparam \HanhNhi_Y4~output .open_drain_output = "false";
+defparam \HanhNhi_Y4~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Y3~output (
+	.i(\inst1111111112222~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y3~output .bus_hold = "false";
+defparam \HanhNhi_Y3~output .open_drain_output = "false";
+defparam \HanhNhi_Y3~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \HanhNhi_Y2~output (
+	.i(!\inst666~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\HanhNhi_Y2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \HanhNhi_Y2~output .bus_hold = "false";
+defparam \HanhNhi_Y2~output .open_drain_output = "false";
+defparam \HanhNhi_Y2~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_C~input (
+	.i(HanhNhi_C),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_C~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_C~input .bus_hold = "false";
+defparam \HanhNhi_C~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_B~input (
+	.i(HanhNhi_B),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_B~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_B~input .bus_hold = "false";
+defparam \HanhNhi_B~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \HanhNhi_A~input (
+	.i(HanhNhi_A),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\HanhNhi_A~input_o ));
+// synopsys translate_off
+defparam \HanhNhi_A~input .bus_hold = "false";
+defparam \HanhNhi_A~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb inst2(
+// Equation(s):
+// \inst2~combout  = (\HanhNhi_B~input_o  & \HanhNhi_A~input_o )
+
+	.dataa(!\HanhNhi_B~input_o ),
+	.datab(!\HanhNhi_A~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst2~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst2.extended_lut = "off";
+defparam inst2.lut_mask = 64'h1111111111111111;
+defparam inst2.shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst666~0 (
+// Equation(s):
+// \inst666~0_combout  = (\HanhNhi_A~input_o  & ((!\HanhNhi_B~input_o ) # (\HanhNhi_C~input_o )))
+
+	.dataa(!\HanhNhi_C~input_o ),
+	.datab(!\HanhNhi_B~input_o ),
+	.datac(!\HanhNhi_A~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst666~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst666~0 .extended_lut = "off";
+defparam \inst666~0 .lut_mask = 64'h0D0D0D0D0D0D0D0D;
+defparam \inst666~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb inst1111111112222(
+// Equation(s):
+// \inst1111111112222~combout  = (\HanhNhi_C~input_o  & (!\HanhNhi_B~input_o  $ (!\HanhNhi_A~input_o )))
+
+	.dataa(!\HanhNhi_C~input_o ),
+	.datab(!\HanhNhi_B~input_o ),
+	.datac(!\HanhNhi_A~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst1111111112222~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst1111111112222.extended_lut = "off";
+defparam inst1111111112222.lut_mask = 64'h1414141414141414;
+defparam inst1111111112222.shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb inst666(
+// Equation(s):
+// \inst666~combout  = (!\HanhNhi_B~input_o ) # (\HanhNhi_C~input_o )
+
+	.dataa(!\HanhNhi_C~input_o ),
+	.datab(!\HanhNhi_B~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst666~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst666.extended_lut = "off";
+defparam inst666.lut_mask = 64'hDDDDDDDDDDDDDDDD;
+defparam inst666.shared_arith = "off";
+// synopsys translate_on
+
+assign HanhNhi_Y0 = \HanhNhi_Y0~output_o ;
+
+assign HanhNhi_Y5 = \HanhNhi_Y5~output_o ;
+
+assign HanhNhi_Y1 = \HanhNhi_Y1~output_o ;
+
+assign HanhNhi_Y4 = \HanhNhi_Y4~output_o ;
+
+assign HanhNhi_Y3 = \HanhNhi_Y3~output_o ;
+
+assign HanhNhi_Y2 = \HanhNhi_Y2~output_o ;
+
+endmodule

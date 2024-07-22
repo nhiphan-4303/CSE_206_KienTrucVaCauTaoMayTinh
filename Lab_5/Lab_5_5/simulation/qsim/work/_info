@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hanie/OneDrive/Desktop/Ky-thuat-phan-mem/CSE_206_KienTrucVaCauTaoMayTinh/Lab_5/Lab_5_5/simulation/qsim
+vAssignment5
+Z1 !s110 1716886115
+!i10b 1
+!s100 4131`XT2JNiSn=L`@zl182
+IF@mQf0HD7XC^o?EEGOLgb0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1716886114
+Z3 8Assignment5.vo
+Z4 FAssignment5.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1716886115.000000
+Z8 !s107 Assignment5.vo|
+Z9 !s90 -work|work|Assignment5.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@assignment5
+vAssignment5_vlg_vec_tst
+R1
+!i10b 1
+!s100 3_=nIYOB^QRn]]=bbc^V13
+I5?M<6Ij=HUgB88jLTHKZh1
+R2
+R0
+w1716886113
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+Z12 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@assignment5_vlg_vec_tst
+vmultiplexer81
+Z13 !s110 1716885194
+!i10b 1
+!s100 ?R[;3QMdUa0cJ9MCGk5Ni2
+I1ZGmj[f3J9SaP1Z3mfZdn1
+R2
+R0
+w1716885193
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1716885194.000000
+R8
+R9
+!i113 1
+R10
+R11
+vmultiplexer81_vlg_vec_tst
+R13
+!i10b 1
+!s100 8hG8YR9Egg8hj3VdMAeo@1
+IUPJlzHLQbX0hHTco^31eZ2
+R2
+R0
+w1716885192
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

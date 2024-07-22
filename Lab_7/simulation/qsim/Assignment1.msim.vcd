@@ -1,0 +1,278 @@
+$comment
+	File created using the following command:
+		vcd file Assignment1.msim.vcd -direction
+$end
+$date
+	Thu Jun 13 14:09:02 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Assignment1_vlg_vec_tst $end
+$var reg 8 ! HNhi_A [7:0] $end
+$var reg 8 " HNhi_B [7:0] $end
+$var reg 3 # HNhi_Operation_Code [2:0] $end
+$var wire 1 $ HNhi_Out [7] $end
+$var wire 1 % HNhi_Out [6] $end
+$var wire 1 & HNhi_Out [5] $end
+$var wire 1 ' HNhi_Out [4] $end
+$var wire 1 ( HNhi_Out [3] $end
+$var wire 1 ) HNhi_Out [2] $end
+$var wire 1 * HNhi_Out [1] $end
+$var wire 1 + HNhi_Out [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 HNhi_Operation_Code[1]~input_o $end
+$var wire 1 3 HNhi_Operation_Code[0]~input_o $end
+$var wire 1 4 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 5 HNhi_Operation_Code[2]~input_o $end
+$var wire 1 6 HNhi_B[5]~input_o $end
+$var wire 1 7 HNhi_A[5]~input_o $end
+$var wire 1 8 inst|inst11|inst1~combout $end
+$var wire 1 9 HNhi_A[7]~input_o $end
+$var wire 1 : HNhi_B[7]~input_o $end
+$var wire 1 ; inst1|inst|inst4~0_combout $end
+$var wire 1 < HNhi_A[6]~input_o $end
+$var wire 1 = HNhi_B[6]~input_o $end
+$var wire 1 > HNhi_A[4]~input_o $end
+$var wire 1 ? inst|inst11|inst2~combout $end
+$var wire 1 @ HNhi_B[3]~input_o $end
+$var wire 1 A HNhi_A[3]~input_o $end
+$var wire 1 B HNhi_A[0]~input_o $end
+$var wire 1 C HNhi_A[2]~input_o $end
+$var wire 1 D HNhi_B[2]~input_o $end
+$var wire 1 E HNhi_B[1]~input_o $end
+$var wire 1 F HNhi_A[1]~input_o $end
+$var wire 1 G HNhi_B[0]~input_o $end
+$var wire 1 H inst|inst1|inst4~combout $end
+$var wire 1 I HNhi_B[4]~input_o $end
+$var wire 1 J inst|inst11|inst~combout $end
+$var wire 1 K inst3|inst14|inst~combout $end
+$var wire 1 L inst3|inst13|inst~combout $end
+$var wire 1 M inst|inst111|inst4~combout $end
+$var wire 1 N inst3|inst12|inst~combout $end
+$var wire 1 O inst3|inst11|inst~combout $end
+$var wire 1 P inst3|inst10|inst~combout $end
+$var wire 1 Q inst|inst2|inst4~combout $end
+$var wire 1 R inst3|inst|inst~combout $end
+$var wire 1 S inst3|inst9|inst~combout $end
+$var wire 1 T inst1|inst111~0_combout $end
+$var wire 1 U inst1|inst111~1_combout $end
+$var wire 1 V inst1|inst11|inst~0_combout $end
+$var wire 1 W inst1|inst111~3_combout $end
+$var wire 1 X inst1|inst111~4_combout $end
+$var wire 1 Y inst1|inst111~2_combout $end
+$var wire 1 Z inst3|inst8|inst4~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 !
+b1 "
+b1 #
+0+
+0*
+1)
+0(
+0'
+0&
+0%
+0$
+0,
+1-
+x.
+1/
+10
+11
+02
+13
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+1B
+0C
+0D
+0E
+1F
+1G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+1Q
+1R
+0S
+1T
+1U
+1V
+0W
+1X
+1Y
+0Z
+$end
+#10000
+b111 !
+b101 !
+b11 "
+b10 "
+0G
+1E
+0F
+1C
+0T
+0Q
+0R
+1S
+1Z
+1+
+1*
+0)
+1R
+1)
+#20000
+b111 !
+b11 "
+1G
+1F
+1Q
+1H
+0Z
+0+
+1P
+0R
+0)
+1(
+#30000
+b111 "
+b101 #
+b11 !
+b101 "
+b100 "
+0C
+15
+0G
+0E
+1D
+0U
+0H
+1T
+0Q
+0S
+1Z
+0P
+0(
+1+
+0*
+0Z
+0+
+#40000
+b1000011 !
+b1100011 !
+b1110011 !
+b100100 "
+b110100 "
+b110000 "
+b1110111 !
+0D
+1I
+16
+1C
+1>
+17
+1<
+1W
+0V
+18
+1M
+1U
+0Y
+0X
+1Z
+1+
+#50000
+b1110101 !
+b1 #
+b110101 !
+b10101 !
+b10000 "
+b10100 "
+b10001 !
+1D
+06
+05
+0F
+0C
+07
+0<
+0W
+1V
+08
+0U
+1L
+1R
+1N
+1&
+1)
+1%
+1Y
+1X
+0L
+0%
+#60000
+b10000 !
+b0 #
+b10101 "
+b0 !
+1G
+03
+0B
+0>
+0Y
+0M
+0T
+1O
+1'
+0N
+0&
+#70000
+b101 "
+b1 "
+b0 "
+0G
+0D
+0I
+1Y
+0O
+0R
+0Z
+0+
+0)
+0'
+#200000
